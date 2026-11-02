@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="width:1440px;background:#F4F1EC;color:#1A1D26;font-family:Archivo,Helvetica,sans-serif;overflow:hidden">
+  <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+  <div style="background:#fff;border-bottom:1px solid #E2DCD0">
+    <div style="max-width:1240px;margin:0 auto;padding:10px 40px;font:400 12.5px/1 Archivo,sans-serif;color:#7A7466">
+      <a href="#1a" style="color:#7A7466;text-decoration:none">Home</a> › <a href="#1b" style="color:#7A7466;text-decoration:none">Routes</a> › <span style="color:#1A1D26;font-weight:600">{{ route.crumb }}</span>
+    </div>
+  </div>
+  <div style="max-width:1240px;margin:0 auto;padding:40px 40px 0;display:grid;grid-template-columns:1fr 420px;gap:48px;align-items:start">
+    <div>
+      <h1 style="margin:0 0 10px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">{{ route.h1 }}</h1>
+      <p style="margin:0 0 22px;font:500 19px/1.5 Archivo,sans-serif;color:#4A4E5C;font-variant-numeric:tabular-nums">{{ route.sub }}</p>
+      <div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px 18px;background:#1B2A6B;color:#fff">
+        <span style="font:700 16px/1 Archivo,sans-serif">Sure fare</span><span style="color:#E8A33D">·</span>
+        <span style="font:700 16px/1 Archivo,sans-serif">Sure driver</span><span style="color:#E8A33D">·</span>
+        <span style="font:700 16px/1 Archivo,sans-serif">Sure time</span>
+        <span style="margin-left:auto;font:500 15px/1 'Noto Sans Devanagari',sans-serif;color:#E8A33D">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</span>
+      </div>
+
+      <h2 style="margin:38px 0 6px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Fares for this route</h2>
+      <p style="margin:0 0 16px;font:400 14px/1 Archivo,sans-serif;color:#7A7466">Figures below are placeholders for layout — client supplies the real fares.</p>
+      <div style="overflow-x:auto;background:#fff;border:1px solid #E2DCD0">
+        <table style="width:100%;min-width:640px;font-variant-numeric:tabular-nums">
+          <thead>
+            <tr style="background:#1B2A6B;color:#fff">
+              <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Vehicle</th>
+              <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Seats</th>
+              <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">One-way</th>
+              <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Round trip</th>
+              <th style="padding:14px 18px"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <sc-for list="{{ route.fares }}" as="row" hint-placeholder-count="5">
+              <tr style="border-top:1px solid #EAE5DC">
+                <td style="padding:16px 18px;font:700 17px/1.2 Archivo,sans-serif">{{ row.veh }}</td>
+                <td style="padding:16px 18px;font:500 15px/1 Archivo,sans-serif;color:#5C6070">{{ row.seats }}</td>
+                <td style="padding:16px 18px;text-align:right;font:700 20px/1 Archivo,sans-serif;letter-spacing:-0.01em">{{ row.one }}</td>
+                <td style="padding:16px 18px;text-align:right;font:700 20px/1 Archivo,sans-serif;letter-spacing:-0.01em">{{ row.round }}</td>
+                <td style="padding:16px 18px;text-align:right"><a href="https://wa.me/919829044112" style="display:inline-block;background:#E8A33D;color:#1A1D26;padding:10px 14px;font:700 13px/1 Archivo,sans-serif;text-decoration:none">Book</a></td>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin:14px 0 0;padding:14px 18px;background:#FBF3E3;border-left:4px solid #E8A33D;font:700 16px/1.5 Archivo,sans-serif">Toll, parking, state tax and driver allowance are charged separately and listed before you book.</p>
+
+      <h2 style="margin:44px 0 12px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">{{ route.driveHeading }}</h2>
+      <div style="display:flex;flex-direction:column;gap:14px;max-width:720px">
+        <sc-for list="{{ route.prose }}" as="p" hint-placeholder-count="2">
+          <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">{{ p.text }}</p>
+        </sc-for>
+      </div>
+
+      <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">{{ route.stopsHeading }}</h2>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+        <sc-for list="{{ route.stops }}" as="s" hint-placeholder-count="3">
+          <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden">
+            <div style="height:110px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:10px">
+              <span style="font:500 9.5px/1.3 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real photo of stop</span>
+            </div>
+            <div style="padding:16px;display:flex;flex-direction:column;gap:5px">
+              <span style="font:700 18px/1.2 Archivo,sans-serif">{{ s.name }}</span>
+              <span style="font:500 13px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ s.km }}</span>
+              <span style="font:400 14px/1.55 Archivo,sans-serif;color:#5C6070">{{ s.note }}</span>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+
+      <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Questions we get asked</h2>
+      <div style="display:flex;flex-direction:column;gap:1px;background:#E2DCD0;border:1px solid #E2DCD0">
+        <sc-for list="{{ route.faqs }}" as="f" hint-placeholder-count="5">
+          <div style="background:#fff;padding:20px 22px;display:flex;flex-direction:column;gap:7px">
+            <span style="font:700 18px/1.35 Archivo,sans-serif">{{ f.q }}</span>
+            <span style="font:400 15px/1.65 Archivo,sans-serif;color:#4A4E5C">{{ f.a }}</span>
+          </div>
+        </sc-for>
+      </div>
+
+      <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">From passengers on this route</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <sc-for list="{{ route.reviews }}" as="v" hint-placeholder-count="2">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:11px">
+            <span style="font:600 15px/1 Archivo,sans-serif;color:#E8A33D;letter-spacing:.14em">★★★★★</span>
+            <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#31343F">{{ v.text }}</p>
+            <div style="display:flex;flex-direction:column;gap:2px">
+              <span style="font:700 14px/1 Archivo,sans-serif">{{ v.name }}</span>
+              <span style="font:400 12.5px/1 Archivo,sans-serif;color:#7A7466">{{ v.meta }}</span>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+
+      <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Related routes</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding-bottom:72px">
+        <sc-for list="{{ route.related }}" as="r" hint-placeholder-count="4">
+          <a href="#2d" style="background:#fff;border:1px solid #E2DCD0;padding:16px;text-decoration:none;color:#1A1D26;display:flex;flex-direction:column;gap:4px">
+            <span style="font:700 16px/1.25 Archivo,sans-serif">{{ r.title }}</span>
+            <span style="font:500 13px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ r.km }}</span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:16px;position:sticky;top:20px">
+      <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden">
+        <div style="height:150px;background:repeating-linear-gradient(115deg,#3A4064 0 14px,#333854 14px 28px);display:flex;align-items:flex-end;padding:12px">
+          <span style="font:500 10px/1.3 ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#A8AEC9">{{ route.photoLabel }}</span>
+        </div>
+        <div style="padding:22px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <span style="font:700 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">{{ route.bookHeading }}</span>
+            <span style="font:400 14px/1.5 Archivo,sans-serif;color:#5C6070">Tell us the date and pickup address. Fare in writing within minutes.</span>
+          </div>
+          <a href="tel:+919829044112" style="display:flex;flex-direction:column;gap:3px;background:#1B2A6B;color:#fff;padding:14px 16px;text-decoration:none">
+            <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#B9C0DE">{{ route.callLabel }}</span>
+            <span style="font:800 22px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums">+91 98290 44112</span>
+          </a>
+          <a href="https://wa.me/919829044112" style="display:flex;align-items:center;justify-content:center;gap:8px;background:#127A56;color:#fff;padding:15px;font:700 16px/1 Archivo,sans-serif;text-decoration:none;text-align:center">{{ route.waLabel }}</a>
+          <div style="border-top:1px solid #EAE5DC;padding-top:12px;display:flex;flex-direction:column;gap:7px">
+            <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ Fixed fare, quoted in writing</span>
+            <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ Driver's name and number the evening before</span>
+            <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ No advance to get a quote</span>
+          </div>
+        </div>
+      </div>
+      <div style="background:#FBF3E3;border:1px solid #EBD9B4;padding:18px 20px;display:flex;flex-direction:column;gap:6px">
+        <span style="font:700 16px/1.3 Archivo,sans-serif">Hindi mein baat karein</span>
+        <span style="font:500 15px/1.6 'Noto Sans Devanagari',sans-serif;color:#31343F">फोन पर हिंदी में बात कीजिए। किराया पहले बताया जाएगा, बाद में कोई बदलाव नहीं।</span>
+      </div>
+    </div>
+  </div>
+  <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:2600},&quot;route&quot;:{&quot;editor&quot;:null,&quot;tsType&quot;:&quot;object&quot;}}"></script>
+</body>
+</html>

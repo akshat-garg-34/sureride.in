@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-indigo: #1b2a6b;
+  --color-indigo-deep: #141f52;
+  --color-indigo-card: #182561;
+  --color-indigo-line: #35418c;
+  --color-indigo-rule: #2b3872;
+  --color-marigold: #e8a33d;
+  --color-sand: #f4f1ec;
+  --color-ink: #1a1d26;
+  --color-whatsapp: #127a56;
+  --color-whatsapp-soft: #4fc08d;
+  /* Safety-only. Never used decoratively — it must read as "emergency" on sight. */
+  --color-sos: #b3261e;
+  --color-sos-soft: #fdecea;
+
+  --color-line: #e2dcd0;
+  --color-line-soft: #eae5dc;
+  --color-field: #c9c3b6;
+  --color-cream: #fbf3e3;
+  --color-cream-line: #ebd9b4;
+
+  --color-body: #31343f;
+  --color-muted: #5c6070;
+  --color-muted-2: #4a4e5c;
+  --color-faint: #7a7466;
+  --color-on-indigo: #b9c0de;
+  --color-on-indigo-2: #c9cfe8;
+  --color-on-indigo-3: #8c95be;
+
+  --font-sans: var(--font-archivo), Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-hi: var(--font-devanagari), var(--font-archivo), sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--color-sand);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible { outline: 3px solid var(--color-marigold); outline-offset: 2px; }
+  table { font-variant-numeric: tabular-nums; }
+}
+
+@layer utilities {
+  .tnum { font-variant-numeric: tabular-nums; }
+  .hi { font-family: var(--font-hi); }
+  /* Diagonal hatch used wherever a real photograph has yet to be supplied. */
+  .ph-light { background: repeating-linear-gradient(135deg, #dcd6cb 0 10px, #eae5dc 10px 20px); }
+  .ph-dark  { background: repeating-linear-gradient(115deg, #3a4064 0 14px, #333854 14px 28px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

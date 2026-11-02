@@ -1,0 +1,1293 @@
+{
+  "showHindi": true,
+  "routePages": [
+    {
+      "badge": "2e-1",
+      "label": "Delhi → Jaipur",
+      "crumb": "Delhi to Jaipur",
+      "h1": "Delhi to Jaipur Taxi",
+      "sub": "280 km · about 5–6 hours via NH-48 · one-way and round trip",
+      "photoLabel": "real fleet photo — pickup at Delhi airport T3",
+      "bookHeading": "Book Delhi → Jaipur",
+      "callLabel": "Call — Delhi to Jaipur",
+      "waLabel": "WhatsApp \"Delhi to Jaipur\"",
+      "driveHeading": "About the drive",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹4,500",
+          "round": "₹7,800"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹5,500",
+          "round": "₹9,200"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹6,500",
+          "round": "₹10,800"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹7,500",
+          "round": "₹12,500"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹11,000",
+          "round": "₹18,000"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Pickup anywhere in Delhi, Noida, Gurgaon, Faridabad or Ghaziabad, and from all three airport terminals. Getting out of Delhi is the slow part — from South Delhi you are on open highway in forty minutes, from Noida or Ghaziabad allow an hour and a half before the Kherki Daula plaza."
+        },
+        {
+          "text": "After that it is NH-48 all the way, four to six lanes, and the driving is easy. Most passengers reach Jaipur in five to six hours with one stop at Behror. For an early flight out of Jaipur we recommend leaving Delhi the previous evening rather than driving through the night."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Manesar",
+          "km": "40 km from Delhi",
+          "note": "Where Delhi traffic finally releases. Tea stop if you left in the rush hour."
+        },
+        {
+          "name": "Behror",
+          "km": "120 km from Delhi",
+          "note": "The standard halt. Rajasthani thali, clean washrooms, about twenty minutes."
+        },
+        {
+          "name": "Neemrana Fort",
+          "km": "158 km from Delhi",
+          "note": "A short detour for lunch at the fort. Tell us when booking and the driver plans for it."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you pick up from Delhi airport?",
+          "a": "Yes, from T1, T2 and T3. The driver waits at the pillar number you send him, and 45 minutes of waiting after landing is free."
+        },
+        {
+          "q": "How long does the Delhi to Jaipur drive take?",
+          "a": "Five to six hours from South Delhi. From Noida or Ghaziabad add an hour for the crossing. Leaving before 7 am or after 8 pm avoids the worst of it."
+        },
+        {
+          "q": "Are toll and state tax included?",
+          "a": "No. Toll, parking, state tax and driver allowance are charged separately and listed before you book. Delhi to Jaipur crosses Haryana and Rajasthan, so two state charges apply."
+        },
+        {
+          "q": "Do you pick up from Noida and Gurgaon?",
+          "a": "Yes, and from Faridabad and Ghaziabad. Gurgaon is the quickest start; Noida adds about an hour of city driving to the front of the trip."
+        },
+        {
+          "q": "Will I get the driver's number before the trip?",
+          "a": "The evening before pickup we send his name, photo and mobile number on WhatsApp so you can confirm the address directly with him."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Picked us up at T3 at eleven at night after a delayed flight, no extra charge asked. Reached Jaipur at four in the morning safely.",
+          "name": "Deepak Nair",
+          "meta": "Google review · Delhi to Jaipur, June 2026"
+        },
+        {
+          "text": "Booked from Noida for my in-laws. The driver called them the night before and again in the morning. Fare was what we agreed on WhatsApp.",
+          "name": "Shalini G.",
+          "meta": "Google review · Delhi to Jaipur, April 2026"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Delhi",
+          "km": "280 km"
+        },
+        {
+          "title": "Delhi → Agra",
+          "km": "230 km"
+        },
+        {
+          "title": "Jaipur → Gurgaon",
+          "km": "260 km"
+        },
+        {
+          "title": "Jaipur → Mathura",
+          "km": "230 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-2",
+      "label": "Jaipur → Agra",
+      "crumb": "Jaipur to Agra",
+      "h1": "Jaipur to Agra Taxi",
+      "sub": "240 km · about 4–5 hours via NH-21 and the Yamuna Expressway link · one-way and round trip",
+      "photoLabel": "real fleet photo — Innova at Fatehpur Sikri",
+      "bookHeading": "Book Jaipur → Agra",
+      "callLabel": "Call — Jaipur to Agra",
+      "waLabel": "WhatsApp \"Jaipur to Agra\"",
+      "driveHeading": "About the drive",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹4,200",
+          "round": "₹7,200"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹5,200",
+          "round": "₹8,600"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹6,000",
+          "round": "₹10,200"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹7,000",
+          "round": "₹11,800"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹10,500",
+          "round": "₹17,000"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Four to five hours on good road, with Bharatpur roughly halfway. This is the Golden Triangle leg, so most passengers ask for a stop at Fatehpur Sikri, which adds about two hours including the walk up. If you want the Taj at sunrise, leave Jaipur by two in the morning — our drivers do this run often and it is quiet the whole way."
+        },
+        {
+          "text": "A same-day return is comfortable if you leave early: Taj Mahal, lunch, Agra Fort, back in Jaipur by nine. Say so when booking and we allocate a driver who knows the parking and the ticket gates, which saves an hour of wandering."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Bharatpur",
+          "km": "180 km from Jaipur",
+          "note": "Keoladeo bird sanctuary and the usual lunch halt on this route."
+        },
+        {
+          "name": "Fatehpur Sikri",
+          "km": "205 km from Jaipur",
+          "note": "Adds about two hours. The driver drops you at the shuttle point and waits."
+        },
+        {
+          "name": "Abhaneri Stepwell",
+          "km": "95 km from Jaipur",
+          "note": "A twenty-minute detour off the highway. Worth it if you have not seen it."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can we stop at Fatehpur Sikri on the way?",
+          "a": "Yes, and most passengers do. It adds about two hours and no extra fare on a one-way trip — just tell us when you book so the timing works."
+        },
+        {
+          "q": "Is a same-day Taj Mahal return possible?",
+          "a": "Yes. Leave Jaipur at 5 am and you have the whole afternoon in Agra with time to be back by evening. Friday is closed at the Taj."
+        },
+        {
+          "q": "Are toll and state tax included in the fare?",
+          "a": "No. Toll, parking, state tax and driver allowance are listed separately before you book. Jaipur to Agra crosses into Uttar Pradesh, so one state charge applies."
+        },
+        {
+          "q": "Do you cover the Golden Triangle as one trip?",
+          "a": "Yes — Delhi, Agra and Jaipur over three or four days with the same car and driver throughout. Call and we will quote the whole circuit."
+        },
+        {
+          "q": "Will the driver guide us at the monuments?",
+          "a": "He is a driver, not a guide, but he knows the gates, the parking and the ticket counters, and will tell you honestly how long each stop takes."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Did Jaipur–Agra–Delhi over two days. Same Innova, same driver, he knew exactly where to park at the Taj. No surprises on the bill.",
+          "name": "Michael Brandt",
+          "meta": "Google review · Jaipur to Agra, March 2026"
+        },
+        {
+          "text": "Left at 5 am for the Taj, stopped at Fatehpur Sikri coming back. Fare was fixed beforehand and they did not ask for anything extra.",
+          "name": "Sunita Jain",
+          "meta": "Google review · Jaipur to Agra, February 2026"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Delhi",
+          "km": "280 km"
+        },
+        {
+          "title": "Jaipur → Mathura",
+          "km": "230 km"
+        },
+        {
+          "title": "Jaipur → Ranthambore",
+          "km": "160 km"
+        },
+        {
+          "title": "Delhi → Jaipur",
+          "km": "280 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-3",
+      "label": "Jaipur → Khatu Shyam Ji",
+      "crumb": "Jaipur to Khatu Shyam Ji",
+      "h1": "Jaipur to Khatu Shyam Ji Taxi",
+      "sub": "80 km · about 2 hours via Ringas · same-day return with waiting included",
+      "photoLabel": "real fleet photo — Ertiga at Khatu, early morning",
+      "bookHeading": "Book Jaipur → Khatu Shyam",
+      "callLabel": "Call — Jaipur to Khatu",
+      "waLabel": "WhatsApp \"Jaipur to Khatu Shyam\"",
+      "driveHeading": "About the drive and the darshan",
+      "stopsHeading": "Stops and temples nearby",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹2,200",
+          "round": "₹3,200"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹2,800",
+          "round": "₹4,000"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹3,400",
+          "round": "₹4,800"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹3,900",
+          "round": "₹5,600"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹6,000",
+          "round": "₹8,500"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Two hours from Jaipur via Chomu and Ringas. Nearly everyone does this as a same-day return, and the round-trip fare includes waiting time at the temple — you are not paying by the hour while your family is inside."
+        },
+        {
+          "text": "Leave Jaipur by five in the morning and you are in the queue before it builds. On Ekadashi, Phalgun Mela and weekends the crowd is heavy and the walk from parking is long, so we send a driver who knows where to drop elderly passengers closest to the gate. Many families continue to Salasar the same day; ask and we will quote both together."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Ringas",
+          "km": "60 km from Jaipur",
+          "note": "Tea and prasad shops. The usual short halt before the last stretch."
+        },
+        {
+          "name": "Salasar Balaji",
+          "km": "90 km further on",
+          "note": "Commonly added to the same trip. Ask for the Khatu–Salasar combined fare."
+        },
+        {
+          "name": "Jeen Mata",
+          "km": "35 km from Khatu",
+          "note": "A quieter temple that pairs well if you have the afternoon."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is waiting time at the temple included?",
+          "a": "Yes, on a round trip. The fare covers the driver waiting while you take darshan — up to four hours, which is more than enough on a normal day."
+        },
+        {
+          "q": "What time should we leave Jaipur?",
+          "a": "Five in the morning on a normal day, four during Ekadashi or the Phalgun Mela. The queue grows quickly after eight."
+        },
+        {
+          "q": "Can we add Salasar Balaji to the same trip?",
+          "a": "Yes. Khatu and Salasar together is a long day but very common. Call and we will quote it as one fare with both waiting times included."
+        },
+        {
+          "q": "Is the road suitable for elderly passengers?",
+          "a": "Yes, it is tar road the whole way with one stop. Tell us if someone needs to be dropped close to the gate and the driver will manage it."
+        },
+        {
+          "q": "Do you have a Tempo Traveller for a group?",
+          "a": "12 and 17 seaters, both ours. Popular for a family group going together — one vehicle works out cheaper than three cars."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Went for darshan with my mother and aunt. Driver dropped us near the gate and waited three hours without a word about extra money.",
+          "name": "Rakesh Sharma",
+          "meta": "Google review · Jaipur to Khatu, August 2026"
+        },
+        {
+          "text": "Booked the Tempo for eleven of us during the mela. Left at four, back by two in the afternoon. Fare fixed on WhatsApp beforehand.",
+          "name": "Vinod Kumawat",
+          "meta": "Google review · Jaipur to Khatu, March 2026"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Salasar Balaji",
+          "km": "170 km"
+        },
+        {
+          "title": "Jaipur → Mehandipur Balaji",
+          "km": "105 km"
+        },
+        {
+          "title": "Jaipur → Rani Sati Dadi",
+          "km": "175 km"
+        },
+        {
+          "title": "Jaipur → Ajmer & Pushkar",
+          "km": "135 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-4",
+      "label": "Jaipur → Ajmer & Pushkar",
+      "crumb": "Jaipur to Ajmer & Pushkar",
+      "h1": "Jaipur to Ajmer &amp; Pushkar Taxi",
+      "sub": "135 km · about 3 hours via NH-48 · same-day return or overnight",
+      "photoLabel": "real fleet photo — Dzire at Pushkar ghat road",
+      "bookHeading": "Book Jaipur → Ajmer",
+      "callLabel": "Call — Jaipur to Ajmer",
+      "waLabel": "WhatsApp \"Jaipur to Ajmer & Pushkar\"",
+      "driveHeading": "About the drive",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹2,800",
+          "round": "₹4,200"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹3,400",
+          "round": "₹5,200"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹4,000",
+          "round": "₹6,200"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹4,600",
+          "round": "₹7,000"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹7,000",
+          "round": "₹10,500"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Three hours of straight six-lane highway with two toll plazas. Ajmer Sharif Dargah and Pushkar are fifteen kilometres apart, so almost everyone does both in one day: dargah in the morning, Brahma temple and the ghats in the afternoon, back in Jaipur by evening."
+        },
+        {
+          "text": "Parking near the dargah is tight and the last stretch is on foot through the bazaar. Our drivers drop you at the Dargah Bazaar entrance and wait at the paid lot. During Urs and the Pushkar camel fair the town is closed to vehicles in places — we will tell you where you will actually be dropped before you book."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Kishangarh",
+          "km": "100 km from Jaipur",
+          "note": "Marble market and a reliable highway lunch stop."
+        },
+        {
+          "name": "Ajmer Sharif Dargah",
+          "km": "135 km from Jaipur",
+          "note": "Drop at Dargah Bazaar; the last few hundred metres are on foot."
+        },
+        {
+          "name": "Pushkar",
+          "km": "150 km from Jaipur",
+          "note": "Brahma temple, the ghats and the bazaar. Fifteen minutes from Ajmer."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can we do Ajmer and Pushkar in one day?",
+          "a": "Comfortably. Leave Jaipur at six, dargah by nine-thirty, Pushkar after lunch, back in Jaipur by eight in the evening. Round-trip fare includes the waiting."
+        },
+        {
+          "q": "How close to the dargah can the car go?",
+          "a": "To the Dargah Bazaar entrance. Beyond that it is pedestrian only — about five minutes' walk. The driver waits in the paid parking nearby."
+        },
+        {
+          "q": "Are toll and parking included?",
+          "a": "No. Two toll plazas and the Ajmer parking charge are separate and listed before you book, along with the driver allowance."
+        },
+        {
+          "q": "What about the Pushkar camel fair?",
+          "a": "We run this route through the fair, but roads close and parking moves. Book a few days ahead and we will tell you exactly where the drop will be."
+        },
+        {
+          "q": "Can we stay overnight in Pushkar?",
+          "a": "Yes. The driver stays with the car and the fare adds one night halt allowance. Tell us at booking so he can plan."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Dargah in the morning and Pushkar after lunch, all in one day. The driver knew where to park and where to wait for us.",
+          "name": "Imran Qureshi",
+          "meta": "Google review · Jaipur to Ajmer, July 2026"
+        },
+        {
+          "text": "Clean Ertiga, driver on time at 6 am. Told us the toll amounts in advance and showed the receipts.",
+          "name": "Meena Sharma",
+          "meta": "Google review · Jaipur to Pushkar, January 2026"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Jodhpur",
+          "km": "335 km"
+        },
+        {
+          "title": "Jaipur → Udaipur",
+          "km": "395 km"
+        },
+        {
+          "title": "Jaipur → Khatu Shyam Ji",
+          "km": "80 km"
+        },
+        {
+          "title": "Jaipur → Delhi",
+          "km": "280 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-5",
+      "label": "Jaipur → Udaipur",
+      "crumb": "Jaipur to Udaipur",
+      "h1": "Jaipur to Udaipur Taxi",
+      "sub": "395 km · about 7 hours via NH-48 and Chittorgarh · one-way and round trip",
+      "photoLabel": "real fleet photo — Crysta on the Chittorgarh road",
+      "bookHeading": "Book Jaipur → Udaipur",
+      "callLabel": "Call — Jaipur to Udaipur",
+      "waLabel": "WhatsApp \"Jaipur to Udaipur\"",
+      "driveHeading": "About the drive",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹6,500",
+          "round": "₹11,500"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹7,800",
+          "round": "₹13,500"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹9,000",
+          "round": "₹15,500"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹10,500",
+          "round": "₹18,000"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹15,500",
+          "round": "₹26,000"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Seven hours with two stops, and the road is good the whole way — Ajmer, Bhilwara, Chittorgarh, then the last hour through the hills into Udaipur. It is a long day, so we plan it as one: leave Jaipur at six, lunch at Chittorgarh, and you are at your Udaipur hotel by two or three in the afternoon."
+        },
+        {
+          "text": "Many passengers add Chittorgarh Fort as a proper stop rather than a lunch halt, which adds two hours and no extra fare on a one-way trip. If you want Kumbhalgarh or Ranakpur on the way, tell us — it is a different road and a longer day, and we will quote it honestly rather than promise both."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Kishangarh",
+          "km": "100 km from Jaipur",
+          "note": "First tea stop, about ninety minutes out of Jaipur."
+        },
+        {
+          "name": "Chittorgarh",
+          "km": "310 km from Jaipur",
+          "note": "Lunch, or a two-hour stop at the fort if you want to see it properly."
+        },
+        {
+          "name": "Nathdwara",
+          "km": "48 km before Udaipur",
+          "note": "Shrinathji temple. A common addition for families on this route."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is a one-day Jaipur to Udaipur drive comfortable?",
+          "a": "Yes, with an early start and two stops. Seven hours of driving; leaving at six means arriving mid-afternoon with the day still usable."
+        },
+        {
+          "q": "Can we stop at Chittorgarh Fort?",
+          "a": "Yes. Two hours at the fort adds nothing to the one-way fare — just say so at booking so the driver leaves early enough."
+        },
+        {
+          "q": "Can we add Nathdwara or Ranakpur?",
+          "a": "Nathdwara is right on the road and easy. Ranakpur and Kumbhalgarh are a different route and make it a much longer day — we will quote it as a two-day trip instead."
+        },
+        {
+          "q": "What is charged on top of the fare?",
+          "a": "Toll, parking, state tax where applicable, and the driver allowance — ₹300 a day, ₹400 with a night halt. All listed before you book."
+        },
+        {
+          "q": "Does the same driver stay for a round trip?",
+          "a": "Yes. He stays with you in Udaipur and drives you back. You are never handed to a second car partway."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Long drive but well managed. Two stops, both clean, and the driver never rushed. Reached Udaipur by three in the afternoon.",
+          "name": "Arvind Purohit",
+          "meta": "Google review · Jaipur to Udaipur, February 2026"
+        },
+        {
+          "text": "Added Chittorgarh Fort on the way, no extra charge. Crysta was new and quiet, which matters for seven hours.",
+          "name": "Laura Kessler",
+          "meta": "Google review · Jaipur to Udaipur, December 2025"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Jodhpur",
+          "km": "335 km"
+        },
+        {
+          "title": "Jaipur → Ajmer & Pushkar",
+          "km": "135 km"
+        },
+        {
+          "title": "Udaipur → Jaipur",
+          "km": "395 km"
+        },
+        {
+          "title": "Jaipur → Ranthambore",
+          "km": "160 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-6",
+      "label": "Jaipur → Jodhpur",
+      "crumb": "Jaipur to Jodhpur",
+      "h1": "Jaipur to Jodhpur Taxi",
+      "sub": "335 km · about 6 hours via NH-58 and Bar · one-way and round trip",
+      "photoLabel": "real fleet photo — Innova near Mehrangarh",
+      "bookHeading": "Book Jaipur → Jodhpur",
+      "callLabel": "Call — Jaipur to Jodhpur",
+      "waLabel": "WhatsApp \"Jaipur to Jodhpur\"",
+      "driveHeading": "About the drive",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹5,800",
+          "round": "₹9,800"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹6,800",
+          "round": "₹11,500"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹8,000",
+          "round": "₹13,500"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹9,200",
+          "round": "₹15,500"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹13,500",
+          "round": "₹22,000"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Six hours through Kishangarh, Beawar and Bar. The first half is highway; the middle stretch is a good two-lane road through open country where the driving is slower but easy. Leaving Jaipur at seven puts you at Mehrangarh in the early afternoon."
+        },
+        {
+          "text": "Ajmer and Pushkar sit close to this road, so a stop there costs you about two hours and nothing on the fare. Families often make this the first leg of a longer Rajasthan circuit — Jaipur, Jodhpur, Jaisalmer, Udaipur — with the same car and driver for the week. Call and we will price the circuit rather than the legs."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Kishangarh",
+          "km": "100 km from Jaipur",
+          "note": "Marble market. First tea and washroom stop."
+        },
+        {
+          "name": "Pushkar",
+          "km": "150 km from Jaipur",
+          "note": "Two hours off the road for the Brahma temple and the ghats."
+        },
+        {
+          "name": "Beawar",
+          "km": "185 km from Jaipur",
+          "note": "The usual lunch halt on this route. Plain but reliable dhabas."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does the Jaipur to Jodhpur drive take?",
+          "a": "About six hours with one stop. The road is good throughout, with a slower two-lane stretch between Beawar and Bar."
+        },
+        {
+          "q": "Can we stop at Pushkar on the way?",
+          "a": "Yes, it is close to the road. Two hours there adds nothing to a one-way fare. Tell us at booking."
+        },
+        {
+          "q": "Can you continue to Jaisalmer?",
+          "a": "Yes — Jodhpur to Jaisalmer is another five hours. Most people make it a multi-day circuit with the same car and driver, which we quote as one trip."
+        },
+        {
+          "q": "What is charged separately?",
+          "a": "Toll, parking, state tax where it applies, and driver allowance. All listed in writing before you book."
+        },
+        {
+          "q": "Is there a night halt charge for the driver?",
+          "a": "₹400 a day when the trip involves an overnight stay. That covers his food and rest and goes to him."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "Jaipur to Jodhpur with a Pushkar stop, exactly as they said on the phone. Nothing added at the end of the trip.",
+          "name": "Gopal Vyas",
+          "meta": "Google review · Jaipur to Jodhpur, June 2026"
+        },
+        {
+          "text": "Took their Innova for six days across Rajasthan. One driver the whole week, he became part of the trip.",
+          "name": "Neha Bhargava",
+          "meta": "Google review · Jaipur to Jodhpur, November 2025"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Udaipur",
+          "km": "395 km"
+        },
+        {
+          "title": "Jodhpur → Jaisalmer",
+          "km": "285 km"
+        },
+        {
+          "title": "Jaipur → Ajmer & Pushkar",
+          "km": "135 km"
+        },
+        {
+          "title": "Jaipur → Delhi",
+          "km": "280 km"
+        }
+      ]
+    },
+    {
+      "badge": "2e-7",
+      "label": "Jaipur → Ranthambore",
+      "crumb": "Jaipur to Ranthambore",
+      "h1": "Jaipur to Ranthambore Taxi",
+      "sub": "160 km · about 3–4 hours via Tonk · timed around the safari slots",
+      "photoLabel": "real fleet photo — Ertiga at Sawai Madhopur",
+      "bookHeading": "Book Jaipur → Ranthambore",
+      "callLabel": "Call — Jaipur to Ranthambore",
+      "waLabel": "WhatsApp \"Jaipur to Ranthambore\"",
+      "driveHeading": "About the drive and the safari timings",
+      "stopsHeading": "Popular stops on this route",
+      "fares": [
+        {
+          "veh": "Swift Dzire",
+          "seats": "4",
+          "one": "₹3,200",
+          "round": "₹5,200"
+        },
+        {
+          "veh": "Ertiga",
+          "seats": "6",
+          "one": "₹3,900",
+          "round": "₹6,200"
+        },
+        {
+          "veh": "Innova",
+          "seats": "7",
+          "one": "₹4,600",
+          "round": "₹7,400"
+        },
+        {
+          "veh": "Innova Crysta",
+          "seats": "7",
+          "one": "₹5,200",
+          "round": "₹8,600"
+        },
+        {
+          "veh": "Tempo Traveller",
+          "seats": "12–17",
+          "one": "₹8,000",
+          "round": "₹12,500"
+        }
+      ],
+      "prose": [
+        {
+          "text": "Three to four hours via Tonk on a road that is mostly two-lane and slower than the numbers suggest. The safari is the thing that fixes your timing: morning slots leave around 6:30 and afternoon slots around 2:30, and gate timings shift with the season. Tell us your slot and we will set the pickup backwards from it rather than guess."
+        },
+        {
+          "text": "The park is closed on some days in the monsoon months and Zone allocation is done by the forest department, not by us — we drive you there and back, we do not sell safari tickets. Most passengers stay one night in Sawai Madhopur; the driver stays with the car and takes you to the gate in the morning."
+        }
+      ],
+      "stops": [
+        {
+          "name": "Tonk",
+          "km": "95 km from Jaipur",
+          "note": "Halfway. The standard tea and washroom stop on this road."
+        },
+        {
+          "name": "Sawai Madhopur",
+          "km": "160 km from Jaipur",
+          "note": "Where the hotels are, ten minutes from the park gate."
+        },
+        {
+          "name": "Chauth Ka Barwara",
+          "km": "125 km from Jaipur",
+          "note": "Hilltop temple a short detour off the route, if you have the time."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will we make the morning safari?",
+          "a": "Only if we leave Jaipur by 2:30 am, which is a hard night. Most passengers travel the day before, stay overnight, and take the morning slot fresh."
+        },
+        {
+          "q": "Do you book the safari tickets?",
+          "a": "No. Zones and permits are handled by the forest department and we would rather not promise what we do not control. We handle the driving."
+        },
+        {
+          "q": "How long does the drive really take?",
+          "a": "Three and a half to four hours honestly, not three. The Tonk road is two-lane for much of the way with village traffic."
+        },
+        {
+          "q": "Can the driver stay overnight with us?",
+          "a": "Yes. He stays with the car and takes you to the gate in the morning. A night halt adds ₹400 driver allowance for the day."
+        },
+        {
+          "q": "Is a same-day return possible?",
+          "a": "Yes for the afternoon safari — leave Jaipur at nine, safari at half past two, back in Jaipur by ten at night. It is a long day but people do it."
+        }
+      ],
+      "reviews": [
+        {
+          "text": "They timed the pickup exactly to our safari slot and we reached the gate with time to spare. Driver waited the whole afternoon.",
+          "name": "Karan Malhotra",
+          "meta": "Google review · Jaipur to Ranthambore, October 2025"
+        },
+        {
+          "text": "Honest about the road being slower than Google says, which I appreciated. Left an hour earlier and had no stress.",
+          "name": "Emma Fitzgerald",
+          "meta": "Google review · Jaipur to Ranthambore, January 2026"
+        }
+      ],
+      "related": [
+        {
+          "title": "Jaipur → Agra",
+          "km": "240 km"
+        },
+        {
+          "title": "Jaipur → Mehandipur Balaji",
+          "km": "105 km"
+        },
+        {
+          "title": "Jaipur → Udaipur",
+          "km": "395 km"
+        },
+        {
+          "title": "Ranthambore → Jaipur",
+          "km": "160 km"
+        }
+      ]
+    }
+  ],
+  "fleetDetail": [
+    {
+      "name": "Swift Dzire",
+      "seats": "4 passengers",
+      "bags": "2 large bags",
+      "perKm": "₹13 / km",
+      "best": "Two or three people, city and highway alike. Our most-booked car and the cheapest way to do a long one-way drop.",
+      "note": "Petrol and CNG both in the fleet. Ask for CNG if you want the lower fare on a local day."
+    },
+    {
+      "name": "Ertiga",
+      "seats": "6 passengers",
+      "bags": "3 large bags",
+      "perKm": "₹16 / km",
+      "best": "A family of five or six who want to sit properly rather than squeeze into a sedan.",
+      "note": "The usual choice for Khatu Shyam and Salasar day trips with parents and children together."
+    },
+    {
+      "name": "Innova",
+      "seats": "7 passengers",
+      "bags": "4 large bags",
+      "perKm": "₹18 / km",
+      "best": "Long highway runs where comfort over six or seven hours matters more than the per-km rate.",
+      "note": "Sits high, takes rough village roads without complaint. Good for Jodhpur and Jaisalmer legs."
+    },
+    {
+      "name": "Innova Crysta",
+      "seats": "7 passengers",
+      "bags": "4 large bags",
+      "perKm": "₹21 / km",
+      "best": "Full-day and multi-day travel, corporate bookings, and anyone who wants the quietest ride we have.",
+      "note": "Newest vehicles in the fleet. Usually what we send for airport pickups of foreign guests."
+    },
+    {
+      "name": "Tempo Traveller",
+      "seats": "12 or 17 passengers",
+      "bags": "Roof carrier fitted",
+      "perKm": "₹26 / km",
+      "best": "Group pilgrimage, wedding parties and office outings — one vehicle instead of three cars.",
+      "note": "Both 12 and 17 seaters are ours. Push-back seats in the 12; bench seating in the 17."
+    }
+  ],
+  "mobileFares": [
+    {
+      "veh": "Swift Dzire",
+      "seats": "4 seats · 2 bags",
+      "one": "₹4,500",
+      "round": "₹7,800"
+    },
+    {
+      "veh": "Ertiga",
+      "seats": "6 seats · 3 bags",
+      "one": "₹5,500",
+      "round": "₹9,200"
+    },
+    {
+      "veh": "Innova",
+      "seats": "7 seats · 4 bags",
+      "one": "₹6,500",
+      "round": "₹10,800"
+    },
+    {
+      "veh": "Innova Crysta",
+      "seats": "7 seats · 4 bags",
+      "one": "₹7,500",
+      "round": "₹12,500"
+    },
+    {
+      "veh": "Tempo Traveller",
+      "seats": "12–17 seats",
+      "one": "₹11,000",
+      "round": "₹18,000"
+    }
+  ],
+  "showNote": true,
+  "routes": [
+    {
+      "title": "Jaipur → Delhi",
+      "km": "280 km · 5–6 hrs",
+      "price": "₹4,500"
+    },
+    {
+      "title": "Delhi → Jaipur",
+      "km": "280 km · 5–6 hrs",
+      "price": "₹4,500"
+    },
+    {
+      "title": "Jaipur → Agra",
+      "km": "240 km · 4–5 hrs",
+      "price": "₹4,200"
+    },
+    {
+      "title": "Jaipur → Khatu Shyam Ji",
+      "km": "80 km · 2 hrs",
+      "price": "₹2,200"
+    },
+    {
+      "title": "Jaipur → Ajmer & Pushkar",
+      "km": "135 km · 3 hrs",
+      "price": "₹2,800"
+    },
+    {
+      "title": "Jaipur → Udaipur",
+      "km": "395 km · 7 hrs",
+      "price": "₹6,500"
+    },
+    {
+      "title": "Jaipur → Jodhpur",
+      "km": "335 km · 6 hrs",
+      "price": "₹5,800"
+    },
+    {
+      "title": "Jaipur → Ranthambore",
+      "km": "160 km · 3–4 hrs",
+      "price": "₹3,200"
+    }
+  ],
+  "services": [
+    {
+      "title": "One-way drop",
+      "note": "Pay for the direction you travel. No return charge added."
+    },
+    {
+      "title": "Round trip",
+      "note": "Same car, same driver, waiting time included."
+    },
+    {
+      "title": "Airport transfer",
+      "note": "Jaipur and Delhi terminals. 45 minutes waiting free."
+    },
+    {
+      "title": "Local 8hr / 80km",
+      "note": "A car and driver for the day inside the city."
+    },
+    {
+      "title": "Outstation",
+      "note": "Rajasthan, Delhi NCR, Haryana and Uttar Pradesh."
+    },
+    {
+      "title": "Tempo Traveller",
+      "note": "12 and 17 seater for families travelling together."
+    }
+  ],
+  "fleet": [
+    {
+      "name": "Swift Dzire",
+      "seats": "4 seats · 2 bags",
+      "note": "The everyday sedan for two or three people."
+    },
+    {
+      "name": "Ertiga",
+      "seats": "6 seats · 3 bags",
+      "note": "Small family with room to sit properly."
+    },
+    {
+      "name": "Innova",
+      "seats": "7 seats · 4 bags",
+      "note": "Long highway runs in comfort."
+    },
+    {
+      "name": "Innova Crysta",
+      "seats": "7 seats · 4 bags",
+      "note": "Newer, quieter, for full-day travel."
+    },
+    {
+      "name": "Tempo Traveller",
+      "seats": "12–17 seats",
+      "note": "Group pilgrimage and wedding parties."
+    }
+  ],
+  "pilgrim": [
+    {
+      "hi": "खाटू श्याम जी",
+      "en": "Khatu Shyam",
+      "km": "80 km from Jaipur"
+    },
+    {
+      "hi": "सालासर बालाजी",
+      "en": "Salasar Balaji",
+      "km": "170 km from Jaipur"
+    },
+    {
+      "hi": "मेहंदीपुर बालाजी",
+      "en": "Mehandipur Balaji",
+      "km": "105 km from Jaipur"
+    },
+    {
+      "hi": "राणी सती दादी",
+      "en": "Rani Sati Dadi",
+      "km": "175 km from Jaipur"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Booked a Ertiga for Khatu Shyam at short notice. The fare they said on the phone was the fare we paid, nothing added at the end.",
+      "name": "Manoj Agarwal",
+      "meta": "Google review · Jaipur"
+    },
+    {
+      "text": "Driver's number came the night before and he called at six in the morning himself. My parents travelled alone and I was not worried.",
+      "name": "Priyanka S.",
+      "meta": "Google review · Gurgaon"
+    },
+    {
+      "text": "Used them four times for Jaipur–Delhi now. Same office, same people answer, they know us. Car is always clean.",
+      "name": "R. Khandelwal",
+      "meta": "Google review · Delhi"
+    }
+  ],
+  "fareRows": [
+    {
+      "veh": "Swift Dzire",
+      "seats": "4",
+      "one": "₹4,500",
+      "round": "₹7,800"
+    },
+    {
+      "veh": "Ertiga",
+      "seats": "6",
+      "one": "₹5,500",
+      "round": "₹9,200"
+    },
+    {
+      "veh": "Innova",
+      "seats": "7",
+      "one": "₹6,500",
+      "round": "₹10,800"
+    },
+    {
+      "veh": "Innova Crysta",
+      "seats": "7",
+      "one": "₹7,500",
+      "round": "₹12,500"
+    },
+    {
+      "veh": "Tempo Traveller",
+      "seats": "12–17",
+      "one": "₹11,000",
+      "round": "₹18,000"
+    }
+  ],
+  "stops": [
+    {
+      "name": "Neemrana Fort",
+      "km": "122 km from Jaipur",
+      "note": "A ninety-minute detour if you want lunch at the fort. Tell the driver when you book."
+    },
+    {
+      "name": "Behror",
+      "km": "160 km from Jaipur",
+      "note": "Where our drivers stop. Rajasthani thali, clean washrooms, twenty minutes."
+    },
+    {
+      "name": "Manesar",
+      "km": "240 km from Jaipur",
+      "note": "Last stop before Gurgaon traffic. Useful for a tea and a stretch."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does the Jaipur to Delhi drive take?",
+      "a": "Five to six hours on NH-48 including one stop. Leaving at 6:30 am usually means South Delhi by 11:30. After 4 pm you arrive in the evening rush and it can run to seven hours — we will say so when you call."
+    },
+    {
+      "q": "Are toll and state tax included in the fare?",
+      "a": "No. Toll, parking, state tax and driver allowance are charged separately. We list the amounts before you book, so the total you agree to is the total you pay."
+    },
+    {
+      "q": "Can we stop at Neemrana on the way?",
+      "a": "Yes. Tell us when booking and the driver plans for it. A lunch stop at Neemrana Fort adds about ninety minutes and no extra fare on a one-way trip."
+    },
+    {
+      "q": "Do you drop anywhere in Delhi NCR, including the airport?",
+      "a": "Anywhere in Delhi, Noida, Gurgaon, Faridabad and Ghaziabad, and all three airport terminals. Gurgaon and Noida drops carry a small difference in state tax, quoted upfront."
+    },
+    {
+      "q": "Will I get the driver's number before the trip?",
+      "a": "The evening before pickup we send his name, photo and mobile number on WhatsApp. You can call him directly to confirm the pickup point."
+    },
+    {
+      "q": "What happens if my flight is delayed?",
+      "a": "For airport pickups we track the flight. Waiting up to 45 minutes after landing is free; beyond that it is ₹150 an hour. Nothing is charged if the flight is cancelled and you tell us."
+    }
+  ],
+  "routeReviews": [
+    {
+      "text": "Jaipur to Delhi airport at four in the morning. Driver was outside the gate at 3:45, we reached T3 with two hours to spare. Fare exactly as quoted on WhatsApp.",
+      "name": "Sanjay Mehta",
+      "meta": "Google review · Jaipur to Delhi, July 2026"
+    },
+    {
+      "text": "Took the round trip and stopped at Neemrana for lunch on the way back. Same driver both days, he waited without complaining once.",
+      "name": "Anita Rao",
+      "meta": "Google review · Jaipur to Delhi, May 2026"
+    }
+  ],
+  "related": [
+    {
+      "title": "Delhi → Jaipur",
+      "km": "280 km"
+    },
+    {
+      "title": "Jaipur → Agra",
+      "km": "240 km"
+    },
+    {
+      "title": "Jaipur → Gurgaon",
+      "km": "260 km"
+    },
+    {
+      "title": "Jaipur → Mathura",
+      "km": "230 km"
+    }
+  ],
+  "rateRows": [
+    {
+      "veh": "Swift Dzire",
+      "seats": "4",
+      "perKm": "₹13",
+      "minDay": "250 km",
+      "local": "₹1,800",
+      "night": "₹300"
+    },
+    {
+      "veh": "Ertiga",
+      "seats": "6",
+      "perKm": "₹16",
+      "minDay": "250 km",
+      "local": "₹2,400",
+      "night": "₹300"
+    },
+    {
+      "veh": "Innova",
+      "seats": "7",
+      "perKm": "₹18",
+      "minDay": "250 km",
+      "local": "₹2,800",
+      "night": "₹300"
+    },
+    {
+      "veh": "Innova Crysta",
+      "seats": "7",
+      "perKm": "₹21",
+      "minDay": "250 km",
+      "local": "₹3,200",
+      "night": "₹400"
+    },
+    {
+      "veh": "Tempo Traveller",
+      "seats": "12–17",
+      "perKm": "₹26",
+      "minDay": "300 km",
+      "local": "₹4,500",
+      "night": "₹500"
+    }
+  ],
+  "charges": [
+    {
+      "title": "Toll",
+      "when": "Applies on every highway trip",
+      "body": "Paid at the plazas on the route. Jaipur to Delhi has four; we tell you the count and the total before you leave. The driver keeps the receipts and shows them to you.",
+      "hi": "टोल हाईवे पर लगता है। रसीद ड्राइवर के पास रहती है।"
+    },
+    {
+      "title": "Parking",
+      "when": "Only where the car must be parked",
+      "body": "Airports, forts, hotels and some markets charge to park. Usually ₹50 to ₹250. If your trip has no such stop, there is nothing to pay.",
+      "hi": "पार्किंग सिर्फ वहीं, जहाँ गाड़ी खड़ी करनी पड़े।"
+    },
+    {
+      "title": "State tax",
+      "when": "Only when crossing a state border",
+      "body": "Each state charges a permit fee for a commercial vehicle entering it. Travel inside Rajasthan and it does not apply. Jaipur to Delhi crosses Haryana and Delhi, so two apply.",
+      "hi": "राज्य कर सिर्फ दूसरे राज्य में जाने पर लगता है।"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Ramesh",
+      "years": "14 years",
+      "lang": "Hindi, English",
+      "routes": "Jaipur–Delhi, Golden Triangle",
+      "status": "With us since 2012"
+    },
+    {
+      "name": "Suresh",
+      "years": "9 years",
+      "lang": "Hindi",
+      "routes": "Rajasthan circuit, pilgrimage routes",
+      "status": "With us since 2017"
+    },
+    {
+      "name": "Mahesh",
+      "years": "11 years",
+      "lang": "Hindi, Marwari",
+      "routes": "Jaipur–Jodhpur, Jaipur–Udaipur",
+      "status": "With us since 2015"
+    },
+    {
+      "name": "Bhanwar",
+      "years": "17 years",
+      "lang": "Hindi, Marwari, English",
+      "routes": "Long outstation, Shekhawati",
+      "status": "With us since 2009"
+    },
+    {
+      "name": "Vikram",
+      "years": "7 years",
+      "lang": "Hindi, English",
+      "routes": "Airport transfers, Delhi NCR drops",
+      "status": "With us since 2019"
+    },
+    {
+      "name": "Om Prakash",
+      "years": "20 years",
+      "lang": "Hindi",
+      "routes": "Khatu Shyam, Salasar, Mehandipur",
+      "status": "With us since 2006"
+    },
+    {
+      "name": "Deepak",
+      "years": "6 years",
+      "lang": "Hindi, English",
+      "routes": "Jaipur local, Ranthambore",
+      "status": "With us since 2020"
+    },
+    {
+      "name": "Kailash",
+      "years": "13 years",
+      "lang": "Hindi, Marwari",
+      "routes": "Tempo Traveller, wedding parties",
+      "status": "With us since 2013"
+    }
+  ]
+}

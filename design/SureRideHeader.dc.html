@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+  <div style="background:#1B2A6B;color:#fff;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px">
+    <div style="display:flex;flex-direction:column;gap:1px">
+      <span style="font:700 19px/1 Archivo,Helvetica,sans-serif;letter-spacing:-0.01em">Sure<span style="color:#E8A33D">R</span>ide</span>
+      <span style="font:500 8.5px/1 Archivo,Helvetica,sans-serif;letter-spacing:0.14em;text-transform:uppercase;color:#B9C0DE">Fixed fare. Named driver.</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:7px">
+      <a href="tel:+919829044112" style="display:flex;align-items:center;gap:5px;background:#E8A33D;color:#1A1D26;font:700 12px/1 Archivo,Helvetica,sans-serif;padding:9px 11px;border-radius:3px;text-decoration:none">
+        <span style="font-size:13px">✆</span>Call
+      </a>
+      <a href="https://wa.me/919829044112" style="display:flex;align-items:center;gap:5px;background:#127A56;color:#fff;font:700 12px/1 Archivo,Helvetica,sans-serif;padding:9px 11px;border-radius:3px;text-decoration:none">
+        <span style="font-size:13px">✆</span>WhatsApp
+      </a>
+    </div>
+  </div>
+</sc-if>
+<sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+  <div style="background:#1B2A6B;color:#fff">
+    <div style="max-width:1240px;margin:0 auto;padding:0 40px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:32px">
+      <div style="display:flex;flex-direction:column;gap:3px">
+        <span style="font:700 27px/1 Archivo,Helvetica,sans-serif;letter-spacing:-0.015em">Sure<span style="color:#E8A33D">R</span>ide</span>
+        <span style="font:500 9.5px/1 Archivo,Helvetica,sans-serif;letter-spacing:0.16em;text-transform:uppercase;color:#B9C0DE">Fixed fare. Named driver.</span>
+      </div>
+      <nav style="display:flex;align-items:center;gap:26px">
+        <a href="#1b" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Routes</a>
+        <a href="#1a" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Services</a>
+        <a href="#1a" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Fleet</a>
+        <a href="#1d" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Fares</a>
+        <a href="#1e" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Drivers</a>
+        <a href="#1a" style="font:600 14px/1 Archivo,Helvetica,sans-serif;color:#fff;text-decoration:none">Contact</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <a href="tel:+919829044112" style="display:flex;flex-direction:column;gap:2px;text-decoration:none">
+          <span style="font:500 9.5px/1 Archivo,Helvetica,sans-serif;letter-spacing:0.14em;text-transform:uppercase;color:#B9C0DE">Call the owner</span>
+          <span style="font:700 17px/1 Archivo,Helvetica,sans-serif;color:#fff;font-variant-numeric:tabular-nums">+91 98290 44112</span>
+        </a>
+        <a href="https://wa.me/919829044112" style="display:flex;align-items:center;gap:7px;background:#127A56;color:#fff;font:700 14px/1 Archivo,Helvetica,sans-serif;padding:12px 16px;border-radius:3px;text-decoration:none">
+          <span style="font-size:15px">✆</span>WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:90},&quot;mobile&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const m = this.props.mobile === true || this.props.mobile === "true";
+    return { isMobile: m, isDesktop: !m };
+  }
+}
+</script>
+</body>
+</html>

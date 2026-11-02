@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <meta name="design_doc_mode" content="canvas" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { margin:0; background:#15171C; }
+    * { box-sizing:border-box; }
+    a { color:#1B2A6B; }
+    a:hover { color:#E8A33D; }
+    table { border-collapse:collapse; }
+  </style>
+</helmet>
+<section style="display:flex;align-items:flex-start;gap:110px;padding:90px 110px 40px;font-family:Archivo,Helvetica,sans-serif">
+
+  <div id="2a" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">2a</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">About — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+      <div style="max-width:1240px;margin:0 auto;padding:44px 40px 0">
+        <p style="margin:0 0 14px;font:italic 400 16px/1 Archivo,sans-serif;color:#7A7466">Family-run in Jaipur since 2006</p>
+        <h1 style="margin:0 0 14px;max-width:920px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">The same family, the same yard in Transport Nagar, since 2006.</h1>
+        <p style="margin:0 0 30px;max-width:800px;font:400 19px/1.6 Archivo,sans-serif;color:#4A4E5C">SureRide is a family business, not an app. Our own cars, our own drivers, and a phone answered in Jaipur by the person who owns them.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start">
+          <div style="display:flex;flex-direction:column;gap:14px;max-width:640px">
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">It started with one Indica and one driver taking families to Khatu Shyam and back. Twenty years on there are eighteen vehicles in the yard, all of them ours, and eleven drivers who have been with us long enough that regular passengers ask for them by name.</p>
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">We kept doing one thing the same way the whole time: the fare is agreed before the car leaves, in writing, and it does not change when you arrive. No festival pricing, no rate that goes up because the highway was busy. If the fare has to change — a route you added, a night that became two — we tell you before it happens, not on the invoice.</p>
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">Most of our work still comes the old way — a family who travelled with us last year telling their relatives. The rest now find us on their phones, which is why this site exists: so the fares, the cars and the drivers are all written down before you call.</p>
+            <p style="margin:0;font:500 17px/1.7 'Noto Sans Devanagari',sans-serif;color:#1B2A6B">बीस साल से एक ही परिवार, एक ही दफ़्तर। किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</p>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <div style="height:300px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:14px">
+              <span style="font:500 10px/1.4 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real fleet photo — the yard at Transport Nagar,<br />cars lined up, morning</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+              <div style="height:150px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:12px">
+                <span style="font:500 9.5px/1.35 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real driver photo —<br />phone snapshot</span>
+              </div>
+              <div style="height:150px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:12px">
+                <span style="font:500 9.5px/1.35 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real photo — the office<br />desk and landline</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:40px;background:#1B2A6B;color:#fff;display:grid;grid-template-columns:repeat(4,1fr)">
+          <div style="padding:28px 30px;border-right:1px solid #35418C;display:flex;flex-direction:column;gap:5px">
+            <span style="font:800 40px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">20</span>
+            <span style="font:500 14px/1.4 Archivo,sans-serif;color:#B9C0DE">years on the road, since 2006</span>
+          </div>
+          <div style="padding:28px 30px;border-right:1px solid #35418C;display:flex;flex-direction:column;gap:5px">
+            <span style="font:800 40px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">18</span>
+            <span style="font:500 14px/1.4 Archivo,sans-serif;color:#B9C0DE">vehicles, every one owned by us</span>
+          </div>
+          <div style="padding:28px 30px;border-right:1px solid #35418C;display:flex;flex-direction:column;gap:5px">
+            <span style="font:800 40px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">11</span>
+            <span style="font:500 14px/1.4 Archivo,sans-serif;color:#B9C0DE">drivers on our own payroll</span>
+          </div>
+          <div style="padding:28px 30px;display:flex;flex-direction:column;gap:5px">
+            <span style="font:800 40px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">4</span>
+            <span style="font:500 14px/1.4 Archivo,sans-serif;color:#B9C0DE">states we operate across</span>
+          </div>
+        </div>
+
+        <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">How we work</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+          <div style="background:#fff;border:1px solid #E2DCD0;border-left:4px solid #1B2A6B;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <span style="font:700 20px/1.25 Archivo,sans-serif">Our cars, not arranged on the day</span>
+            <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Every vehicle on this site is parked in our yard tonight. Serviced on schedule, papers current, and we know its history because we bought it.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;border-left:4px solid #1B2A6B;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <span style="font:700 20px/1.25 Archivo,sans-serif">Drivers we employ, named in advance</span>
+            <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Salaried, police-verified, and with us for years. You are told who is coming the evening before, with his photo and number.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;border-left:4px solid #1B2A6B;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <span style="font:700 20px/1.25 Archivo,sans-serif">One number, answered by a person</span>
+            <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">The number on this site rings a desk in Jaipur from six in the morning to eleven at night. If something goes wrong on the road, you reach the owner.</span>
+          </div>
+        </div>
+
+        <div style="margin:44px 0 64px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:26px">
+            <h3 style="margin:0 0 14px;font:800 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">Registration and papers</h3>
+            <div style="display:grid;grid-template-columns:auto 1fr;gap:10px 20px;font-variant-numeric:tabular-nums">
+              <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Registered name</span>
+              <span style="font:500 15px/1.4 Archivo,sans-serif">SureRide Travels</span>
+              <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">GSTIN</span>
+              <span style="font:500 15px/1.4 Archivo,sans-serif">08AAGCS4471K1ZP</span>
+              <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Tourist permit</span>
+              <span style="font:500 15px/1.4 Archivo,sans-serif">RJ/TP/2016/4472</span>
+              <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">RTO</span>
+              <span style="font:500 15px/1.4 Archivo,sans-serif">Jaipur — RJ 14</span>
+              <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Office</span>
+              <span style="font:500 15px/1.4 Archivo,sans-serif">Plot 14, Transport Nagar, Jaipur 302003</span>
+            </div>
+            <p style="margin:16px 0 0;font:400 13.5px/1.5 Archivo,sans-serif;color:#7A7466">Placeholder registration details — client supplies the real numbers.</p>
+          </div>
+          <div style="background:#1B2A6B;color:#fff;padding:26px;display:flex;flex-direction:column;gap:14px">
+            <h3 style="margin:0;font:800 22px/1.25 Archivo,sans-serif;letter-spacing:-0.01em">Ask us anything before you book</h3>
+            <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#C9CFE8">Which car suits five people and luggage, whether the road is fit for your parents, what a two-day circuit really costs. Call and ask — nobody will push you to book.</p>
+            <a href="tel:+919829044112" style="background:#E8A33D;color:#1A1D26;padding:15px;text-align:center;font:800 19px/1 Archivo,sans-serif;text-decoration:none;font-variant-numeric:tabular-nums">+91 98290 44112</a>
+            <a href="https://wa.me/919829044112" style="background:#127A56;color:#fff;padding:14px;text-align:center;font:700 16px/1 Archivo,sans-serif;text-decoration:none">WhatsApp us</a>
+          </div>
+        </div>
+      </div>
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="2b" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">2b</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Contact — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+      <div style="max-width:1240px;margin:0 auto;padding:44px 40px 0">
+        <h1 style="margin:0 0 12px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">Call us. It is faster than a form.</h1>
+        <p style="margin:0 0 8px;max-width:800px;font:400 19px/1.6 Archivo,sans-serif;color:#4A4E5C">One phone call and you have your fare. If you would rather type, WhatsApp us — we reply with the fare in writing, usually within a few minutes.</p>
+        <p style="margin:0 0 30px;font:500 17px/1.5 'Noto Sans Devanagari',sans-serif;color:#1B2A6B">फोन कीजिए या व्हाट्सएप कीजिए। किराया लिखकर भेजा जाएगा।</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <a href="tel:+919829044112" style="background:#1B2A6B;color:#fff;padding:30px;text-decoration:none;display:flex;flex-direction:column;gap:8px">
+            <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#B9C0DE">Booking desk &amp; owner</span>
+            <span style="font:800 42px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.025em">+91 98290 44112</span>
+            <span style="font:400 15px/1.5 Archivo,sans-serif;color:#C9CFE8">6 am to 11 pm, every day including festivals. Hindi and English.</span>
+          </a>
+          <a href="https://wa.me/919829044112" style="background:#127A56;color:#fff;padding:30px;text-decoration:none;display:flex;flex-direction:column;gap:8px">
+            <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#B7E3CE">WhatsApp — fare in writing</span>
+            <span style="font:800 42px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.025em">+91 98290 44112</span>
+            <span style="font:400 15px/1.5 Archivo,sans-serif;color:#C6E8D9">Send your route and date. You get the full total, with what is extra listed.</span>
+          </a>
+        </div>
+
+        <div style="margin-top:16px;display:grid;grid-template-columns:1.1fr 1fr;gap:16px;align-items:start">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:26px">
+            <h2 style="margin:0 0 8px;font:800 24px/1.2 Archivo,sans-serif;letter-spacing:-0.015em">What to tell us</h2>
+            <p style="margin:0 0 16px;font:400 15px/1.6 Archivo,sans-serif;color:#5C6070">Four things and we can quote you on the spot. Anything you do not know yet, say so — we will work around it.</p>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="display:flex;gap:14px;align-items:baseline">
+                <span style="font:800 20px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">01</span>
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:700 16px/1.3 Archivo,sans-serif">Where from and where to</span>
+                  <span style="font:400 14.5px/1.5 Archivo,sans-serif;color:#5C6070">Pickup address or landmark, and the drop. City names are enough to start.</span>
+                </div>
+              </div>
+              <div style="display:flex;gap:14px;align-items:baseline">
+                <span style="font:800 20px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">02</span>
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:700 16px/1.3 Archivo,sans-serif">Date and pickup time</span>
+                  <span style="font:400 14.5px/1.5 Archivo,sans-serif;color:#5C6070">And whether it is one-way or a round trip, if you know.</span>
+                </div>
+              </div>
+              <div style="display:flex;gap:14px;align-items:baseline">
+                <span style="font:800 20px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">03</span>
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:700 16px/1.3 Archivo,sans-serif">How many passengers and bags</span>
+                  <span style="font:400 14.5px/1.5 Archivo,sans-serif;color:#5C6070">We will tell you which car actually fits, not the most expensive one.</span>
+                </div>
+              </div>
+              <div style="display:flex;gap:14px;align-items:baseline">
+                <span style="font:800 20px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">04</span>
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:700 16px/1.3 Archivo,sans-serif">Any stops on the way</span>
+                  <span style="font:400 14.5px/1.5 Archivo,sans-serif;color:#5C6070">A temple, a dhaba, a fort. Most cost nothing on a one-way fare if planned in advance.</span>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:20px;padding:16px 18px;background:#FBF3E3;border-left:4px solid #E8A33D">
+              <span style="font:700 15.5px/1.5 Archivo,sans-serif">No advance is needed to get a fare, and no advance is needed to hold a booking for the same week.</span>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:16px">
+            <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden">
+              <div style="height:220px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:14px">
+                <span style="font:500 10px/1.4 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">map placeholder — Transport Nagar,<br />Jaipur, pin on the office</span>
+              </div>
+              <div style="padding:24px;display:flex;flex-direction:column;gap:14px">
+                <div style="display:flex;flex-direction:column;gap:4px">
+                  <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#7A7466">Office and yard</span>
+                  <span style="font:700 18px/1.5 Archivo,sans-serif">Plot 14, Transport Nagar,<br />Jaipur 302003, Rajasthan</span>
+                </div>
+                <div style="display:grid;grid-template-columns:auto 1fr;gap:8px 18px;padding-top:14px;border-top:1px solid #EAE5DC;font-variant-numeric:tabular-nums">
+                  <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Phone hours</span>
+                  <span style="font:500 14.5px/1.4 Archivo,sans-serif">6:00 am – 11:00 pm, daily</span>
+                  <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Airport pickups</span>
+                  <span style="font:500 14.5px/1.4 Archivo,sans-serif">Any hour, arranged in advance</span>
+                  <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">Languages</span>
+                  <span style="font:500 14.5px/1.4 Archivo,sans-serif">Hindi, English, Marwari</span>
+                  <span style="font:600 13px/1.4 Archivo,sans-serif;color:#7A7466">GSTIN</span>
+                  <span style="font:500 14.5px/1.4 Archivo,sans-serif">08AAGCS4471K1ZP</span>
+                </div>
+              </div>
+            </div>
+            <div style="background:#FBF3E3;border:1px solid #EBD9B4;padding:22px;display:flex;flex-direction:column;gap:7px">
+              <span style="font:700 17px/1.3 Archivo,sans-serif">Corporate and travel-agent bookings</span>
+              <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Monthly billing with GST invoices, fixed contract rates and a named coordinator. Call the same number and ask for the owner.</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin:44px 0 64px">
+          <h2 style="margin:0 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Already travelling with us?</h2>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:6px">
+              <span style="font:700 18px/1.3 Archivo,sans-serif">Driver not reachable?</span>
+              <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Call the office number. We can see where the car is and will call him ourselves.</span>
+            </div>
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:6px">
+              <span style="font:700 18px/1.3 Archivo,sans-serif">Need to change the time?</span>
+              <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">WhatsApp us. Same-day changes are usually fine and cost nothing.</span>
+            </div>
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:6px">
+              <span style="font:700 18px/1.3 Archivo,sans-serif">Something went wrong?</span>
+              <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Tell the owner directly on the same number. He would rather hear it from you than read it on Google.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="2c" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">2c</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Fleet — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+      <div style="max-width:1240px;margin:0 auto;padding:44px 40px 0">
+        <h1 style="margin:0 0 12px;max-width:900px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">Eighteen vehicles, every one of them ours.</h1>
+        <p style="margin:0 0 8px;max-width:800px;font:400 19px/1.6 Archivo,sans-serif;color:#4A4E5C">The car you book is the car that arrives. Nothing here is arranged from another operator on the morning of your trip.</p>
+        <p style="margin:0 0 22px;font:500 17px/1.5 'Noto Sans Devanagari',sans-serif;color:#1B2A6B">गाड़ी हमारी, ड्राइवर हमारा।</p>
+        <p style="margin:0 0 20px;font:400 14px/1 Archivo,sans-serif;color:#7A7466">Per-km rates shown are placeholders for layout — client supplies the real rates.</p>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <sc-for list="{{ fleetDetail }}" as="v" hint-placeholder-count="5">
+            <div style="background:#fff;border:1px solid #E2DCD0;display:grid;grid-template-columns:340px 1fr 260px;gap:0">
+              <div style="background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:14px;min-height:210px">
+                <span style="font:500 10px/1.4 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real fleet photo —<br />this vehicle, our yard</span>
+              </div>
+              <div style="padding:26px 28px;display:flex;flex-direction:column;gap:12px">
+                <div style="display:flex;align-items:baseline;gap:14px;flex-wrap:wrap">
+                  <span style="font:800 30px/1 Archivo,sans-serif;letter-spacing:-0.02em">{{ v.name }}</span>
+                  <span style="font:500 15px/1 Archivo,sans-serif;color:#5C6070;font-variant-numeric:tabular-nums">{{ v.seats }}</span>
+                  <span style="color:#C9C3B6">·</span>
+                  <span style="font:500 15px/1 Archivo,sans-serif;color:#5C6070">{{ v.bags }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Best for</span>
+                  <span style="font:400 16px/1.6 Archivo,sans-serif;color:#31343F">{{ v.best }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Worth knowing</span>
+                  <span style="font:400 16px/1.6 Archivo,sans-serif;color:#31343F">{{ v.note }}</span>
+                </div>
+              </div>
+              <div style="border-left:1px solid #EAE5DC;padding:26px;display:flex;flex-direction:column;gap:12px">
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Outstation rate</span>
+                  <span style="font:800 30px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">{{ v.perKm }}</span>
+                  <span style="font:400 13px/1.4 Archivo,sans-serif;color:#7A7466">250 km daily minimum</span>
+                </div>
+                <a href="tel:+919829044112" style="margin-top:auto;background:#1B2A6B;color:#fff;padding:12px;text-align:center;font:700 14px/1 Archivo,sans-serif;text-decoration:none">Call for a fare</a>
+                <a href="https://wa.me/919829044112" style="background:#127A56;color:#fff;padding:12px;text-align:center;font:700 14px/1 Archivo,sans-serif;text-decoration:none">WhatsApp</a>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+
+        <div style="margin-top:44px;display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div style="width:66px;height:34px;background:#E8A33D;border-radius:56px 56px 3px 3px"></div>
+          <h2 style="margin:0;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em;text-align:center">In every car, every trip</h2>
+        </div>
+        <div style="margin:22px 0 64px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+          <div style="background:#fff;border:1px solid #E2DCD0;border-top:4px solid #1B2A6B;padding:22px;display:flex;flex-direction:column;gap:6px">
+            <span style="font:700 18px/1.3 Archivo,sans-serif">Air conditioning that works</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#4A4E5C">Checked before every outstation trip. In May that is not a small thing.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;border-top:4px solid #1B2A6B;padding:22px;display:flex;flex-direction:column;gap:6px">
+            <span style="font:700 18px/1.3 Archivo,sans-serif">Papers, permit and insurance current</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#4A4E5C">Commercial registration, fitness and all-India permit, kept in the car.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;border-top:4px solid #1B2A6B;padding:22px;display:flex;flex-direction:column;gap:6px">
+            <span style="font:700 18px/1.3 Archivo,sans-serif">Water, tissue and a phone charger</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#4A4E5C">Bottled water for each passenger. Charging cable for both phone types.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;border-top:4px solid #1B2A6B;padding:22px;display:flex;flex-direction:column;gap:6px">
+            <span style="font:700 18px/1.3 Archivo,sans-serif">Child seat or carrier on request</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#4A4E5C">Ask a day ahead and it is fitted. No charge for either.</span>
+          </div>
+        </div>
+      </div>
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="2d" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">2d</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Mobile fares — stacked cards variant</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">390 · compare with <a href="#1c" style="color:#E8A33D">1c</a></span>
+    </div>
+    <div style="width:390px;height:844px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow-y:auto;overflow-x:hidden;position:relative">
+      <dc-import name="SureRideHeader" mobile="{{ true }}" hint-size="390px,60px"></dc-import>
+      <div style="padding:16px 14px 0">
+        <h1 style="margin:0 0 6px;font:800 30px/1.1 Archivo,sans-serif;letter-spacing:-0.025em">Jaipur to Delhi Taxi</h1>
+        <p style="margin:0 0 14px;font:500 14.5px/1.5 Archivo,sans-serif;color:#4A4E5C;font-variant-numeric:tabular-nums">280 km · about 5–6 hours via NH-48</p>
+        <div style="background:#1B2A6B;color:#fff;padding:11px 13px;display:flex;flex-direction:column;gap:4px">
+          <span style="font:700 15px/1 Archivo,sans-serif">Sure fare · Sure driver · Sure time</span>
+          <span style="font:500 13.5px/1.4 'Noto Sans Devanagari',sans-serif;color:#E8A33D">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</span>
+        </div>
+        <h2 style="margin:22px 0 4px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Fares for this route</h2>
+        <p style="margin:0 0 12px;font:400 12px/1.4 Archivo,sans-serif;color:#7A7466">No sideways scrolling — one card per vehicle, both fares visible.</p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ mobileFares }}" as="row" hint-placeholder-count="5">
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:14px">
+              <div style="display:flex;flex-direction:column;gap:2px;padding-bottom:12px;border-bottom:1px solid #EAE5DC">
+                <span style="font:700 18px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">{{ row.veh }}</span>
+                <span style="font:500 12.5px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ row.seats }}</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 0">
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">One-way</span>
+                  <span style="font:800 24px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">{{ row.one }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:3px;padding-left:12px;border-left:1px solid #EAE5DC">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Round trip</span>
+                  <span style="font:800 24px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">{{ row.round }}</span>
+                </div>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+                <a href="tel:+919829044112" style="text-align:center;border:1.5px solid #1B2A6B;color:#1B2A6B;padding:12px;font:700 13px/1 Archivo,sans-serif;text-decoration:none;min-height:44px;display:flex;align-items:center;justify-content:center">Call</a>
+                <a href="https://wa.me/919829044112?text=Jaipur%20to%20Delhi" style="text-align:center;background:#E8A33D;color:#1A1D26;padding:12px;font:700 13px/1 Archivo,sans-serif;text-decoration:none;min-height:44px;display:flex;align-items:center;justify-content:center">Book this</a>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+        <p style="margin:12px 0 24px;padding:12px 14px;background:#FBF3E3;border-left:4px solid #E8A33D;font:700 14px/1.5 Archivo,sans-serif">Toll, parking, state tax and driver allowance are charged separately and listed before you book.</p>
+      </div>
+      <div style="position:sticky;bottom:0;background:#fff;border-top:1px solid #DCD6CB;padding:9px 10px;display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:8px;box-shadow:0 -8px 24px rgba(26,29,38,.14)">
+        <a href="tel:+919829044112" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#1B2A6B;color:#fff;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:700 14px/1 Archivo,sans-serif">Call</span>
+          <span style="font:500 9px/1 Archivo,sans-serif;color:#B9C0DE">24 hours</span>
+        </a>
+        <a href="https://wa.me/919829044112?text=Jaipur%20to%20Delhi" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#127A56;color:#fff;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:700 14px/1 Archivo,sans-serif">WhatsApp</span>
+          <span style="font:500 9px/1 Archivo,sans-serif;color:#B7E3CE">Jaipur → Delhi</span>
+        </a>
+        <a href="#2d" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#E8A33D;color:#1A1D26;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:800 14px/1 Archivo,sans-serif">Get fare</span>
+          <span style="font:600 9px/1 Archivo,sans-serif;color:#5E4718">in writing</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <sc-for list="{{ routePages }}" as="rp" hint-placeholder-count="7">
+    <div id="{{ rp.badge }}" style="display:flex;flex-direction:column;gap:18px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">{{ rp.badge }}</span>
+        <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Route page: {{ rp.label }}</span>
+        <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+      </div>
+      <div style="box-shadow:0 30px 90px rgba(0,0,0,.5)">
+        <dc-import name="SureRideRoutePage" route="{{ rp }}" hint-size="1440px,2600px"></dc-import>
+      </div>
+    </div>
+  </sc-for>
+
+</section>
+
+<section style="display:flex;align-items:flex-start;gap:110px;padding:40px 110px 90px;font-family:Archivo,Helvetica,sans-serif">
+
+  <div id="1a" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">1a</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Homepage — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+
+      <div style="position:relative;height:520px;background:repeating-linear-gradient(115deg,#3A4064 0 14px,#333854 14px 28px);display:flex;align-items:center">
+        <span style="position:absolute;top:18px;left:24px;font:500 11px/1 ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;color:#A8AEC9">real fleet photo — three cars, own drivers, Jaipur yard</span>
+        <div style="max-width:1240px;margin:0 auto;padding:0 40px;width:100%;display:grid;grid-template-columns:1fr 470px;gap:56px;align-items:center">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <h1 style="margin:0;font:800 54px/1.06 Archivo,sans-serif;letter-spacing:-0.025em;color:#fff;text-wrap:balance">Cabs across Rajasthan, Delhi, Haryana and UP.</h1>
+            <p style="margin:0;max-width:520px;font:400 19px/1.55 Archivo,sans-serif;color:#E4E1DA">Fixed fare quoted in writing. Your driver's name and number before you travel.</p>
+          </div>
+          <div style="background:#F4F1EC;padding:24px;box-shadow:0 20px 50px rgba(10,14,40,.45)">
+            <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:18px">
+              <span style="font:700 20px/1 Archivo,sans-serif;letter-spacing:-0.01em">Get your fare</span>
+              <span style="font:500 12px/1 Archivo,sans-serif;color:#5C6070">No advance to see the price</span>
+            </div>
+            <div style="display:flex;gap:8px;margin-bottom:16px">
+              <button style="flex:1;background:#1B2A6B;color:#fff;border:0;padding:11px;font:700 13px/1 Archivo,sans-serif;cursor:pointer">One-way</button>
+              <button style="flex:1;background:transparent;color:#1B2A6B;border:1.5px solid #C9C3B6;padding:11px;font:600 13px/1 Archivo,sans-serif;cursor:pointer">Round trip</button>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:11px">
+              <label style="display:flex;flex-direction:column;gap:5px">
+                <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5C6070">From</span>
+                <div style="border:1.5px solid #C9C3B6;background:#fff;padding:12px 13px;font:500 16px/1 Archivo,sans-serif">Jaipur</div>
+              </label>
+              <label style="display:flex;flex-direction:column;gap:5px">
+                <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5C6070">To</span>
+                <div style="border:1.5px solid #C9C3B6;background:#fff;padding:12px 13px;font:500 16px/1 Archivo,sans-serif;color:#8A8578">City, airport or temple</div>
+              </label>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:11px">
+                <label style="display:flex;flex-direction:column;gap:5px">
+                  <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5C6070">Date</span>
+                  <div style="border:1.5px solid #C9C3B6;background:#fff;padding:12px 13px;font:500 16px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums">04 Sep 2026</div>
+                </label>
+                <label style="display:flex;flex-direction:column;gap:5px">
+                  <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5C6070">Pickup time</span>
+                  <div style="border:1.5px solid #C9C3B6;background:#fff;padding:12px 13px;font:500 16px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums">06:30 AM</div>
+                </label>
+              </div>
+            </div>
+            <button style="width:100%;margin-top:16px;background:#E8A33D;color:#1A1D26;border:0;padding:16px;font:800 17px/1 Archivo,sans-serif;letter-spacing:-0.01em;cursor:pointer">Get fare</button>
+            <div style="display:flex;gap:8px;margin-top:9px">
+              <a href="tel:+919829044112" style="flex:1;text-align:center;border:1.5px solid #1B2A6B;color:#1B2A6B;padding:11px;font:700 13px/1 Archivo,sans-serif;text-decoration:none">Call to book</a>
+              <a href="https://wa.me/919829044112" style="flex:1;text-align:center;background:#127A56;color:#fff;padding:11px;font:700 13px/1 Archivo,sans-serif;text-decoration:none">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#1B2A6B;color:#fff;padding:22px 0">
+        <div style="max-width:1240px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:40px">
+          <div style="display:flex;align-items:center;gap:26px">
+            <span style="font:700 22px/1 Archivo,sans-serif;letter-spacing:-0.01em">Sure fare</span>
+            <span style="color:#E8A33D">·</span>
+            <span style="font:700 22px/1 Archivo,sans-serif;letter-spacing:-0.01em">Sure driver</span>
+            <span style="color:#E8A33D">·</span>
+            <span style="font:700 22px/1 Archivo,sans-serif;letter-spacing:-0.01em">Sure time</span>
+          </div>
+          <sc-if value="{{ showHindi }}" hint-placeholder-val="{{ true }}">
+            <span style="font:500 17px/1 'Noto Sans Devanagari',sans-serif;color:#E8A33D">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</span>
+          </sc-if>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:64px 40px 0">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:26px">
+          <div>
+            <h2 style="margin:0 0 6px;font:800 34px/1.1 Archivo,sans-serif;letter-spacing:-0.02em">Popular routes</h2>
+            <p style="margin:0;font:400 15px/1 Archivo,sans-serif;color:#5C6070">Fares from, for a Swift Dzire, one-way.</p>
+          </div>
+          <a href="#1b" style="font:700 14px/1 Archivo,sans-serif;color:#1B2A6B;text-decoration:none;border-bottom:2px solid #E8A33D;padding-bottom:3px">All routes</a>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+          <sc-for list="{{ routes }}" as="r" hint-placeholder-count="8">
+            <a href="#1b" style="display:flex;flex-direction:column;gap:14px;background:#fff;border:1px solid #E2DCD0;padding:18px;text-decoration:none;color:#1A1D26">
+              <div style="height:6px;width:34px;background:#E8A33D;border-radius:99px 99px 0 0"></div>
+              <div style="display:flex;flex-direction:column;gap:3px">
+                <span style="font:700 19px/1.25 Archivo,sans-serif;letter-spacing:-0.01em">{{ r.title }}</span>
+                <span style="font:500 13px/1 Archivo,sans-serif;color:#5C6070;font-variant-numeric:tabular-nums">{{ r.km }}</span>
+              </div>
+              <div style="display:flex;align-items:baseline;gap:6px;margin-top:auto">
+                <span style="font:500 12px/1 Archivo,sans-serif;color:#5C6070">from</span>
+                <span style="font:800 24px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">{{ r.price }}</span>
+              </div>
+            </a>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:64px 40px 0">
+        <h2 style="margin:0 0 26px;font:800 34px/1.1 Archivo,sans-serif;letter-spacing:-0.02em">Services</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+          <sc-for list="{{ services }}" as="s" hint-placeholder-count="6">
+            <div style="background:#fff;border:1px solid #E2DCD0;border-left:4px solid #1B2A6B;padding:20px 22px;display:flex;flex-direction:column;gap:7px">
+              <span style="font:700 20px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">{{ s.title }}</span>
+              <span style="font:400 14px/1.5 Archivo,sans-serif;color:#5C6070">{{ s.note }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:64px 40px 0">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:26px">
+          <h2 style="margin:0;font:800 34px/1.1 Archivo,sans-serif;letter-spacing:-0.02em">Our fleet</h2>
+          <p style="margin:0;font:400 15px/1 Archivo,sans-serif;color:#5C6070">Owned and maintained by us — not sourced on the day.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px">
+          <sc-for list="{{ fleet }}" as="f" hint-placeholder-count="5">
+            <div style="background:#fff;border:1px solid #E2DCD0;display:flex;flex-direction:column">
+              <div style="height:118px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:10px">
+                <span style="font:500 9.5px/1.3 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real fleet photo</span>
+              </div>
+              <div style="padding:14px 16px 16px;display:flex;flex-direction:column;gap:4px">
+                <span style="font:700 17px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">{{ f.name }}</span>
+                <span style="font:500 13px/1 Archivo,sans-serif;color:#5C6070;font-variant-numeric:tabular-nums">{{ f.seats }}</span>
+                <span style="font:400 12.5px/1.45 Archivo,sans-serif;color:#7A7466">{{ f.note }}</span>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="margin-top:64px;background:#1B2A6B;color:#fff;padding:52px 0 56px">
+        <div style="max-width:1240px;margin:0 auto;padding:0 40px">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;margin-bottom:32px">
+            <div style="width:74px;height:38px;background:#E8A33D;border-radius:60px 60px 4px 4px"></div>
+            <h2 style="margin:0;font:700 36px/1.25 'Noto Sans Devanagari',sans-serif">तीर्थ यात्रा — दर्शन सर्किट</h2>
+            <p style="margin:0;font:400 15px/1 Archivo,sans-serif;color:#B9C0DE">Early-morning departures, waiting time included, driver knows the darshan timings.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+            <sc-for list="{{ pilgrim }}" as="p" hint-placeholder-count="4">
+              <div style="border:1px solid #35418C;background:#182561;padding:20px;display:flex;flex-direction:column;gap:6px">
+                <span style="font:600 21px/1.3 'Noto Sans Devanagari',sans-serif;color:#fff">{{ p.hi }}</span>
+                <span style="font:600 13px/1 Archivo,sans-serif;color:#E8A33D;letter-spacing:.02em">{{ p.en }}</span>
+                <span style="font:400 13px/1.5 Archivo,sans-serif;color:#B9C0DE;font-variant-numeric:tabular-nums">{{ p.km }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:64px 40px 0">
+        <h2 style="margin:0 0 26px;font:800 34px/1.1 Archivo,sans-serif;letter-spacing:-0.02em">Why book with us</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:24px;display:flex;flex-direction:column;gap:9px">
+            <span style="font:800 30px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">01</span>
+            <span style="font:700 20px/1.25 Archivo,sans-serif">The fare is published in writing</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#5C6070">You get the full amount on WhatsApp before the car leaves — vehicle, route, what is extra and what is not.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:24px;display:flex;flex-direction:column;gap:9px">
+            <span style="font:800 30px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">02</span>
+            <span style="font:700 20px/1.25 Archivo,sans-serif">Driver's name, photo and number in advance</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#5C6070">Sent the evening before pickup, so you know who is arriving for your family.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:24px;display:flex;flex-direction:column;gap:9px">
+            <span style="font:800 30px/1 Archivo,sans-serif;color:#E8A33D;font-variant-numeric:tabular-nums">03</span>
+            <span style="font:700 20px/1.25 Archivo,sans-serif">The owner's phone, answered by a person</span>
+            <span style="font:400 14.5px/1.6 Archivo,sans-serif;color:#5C6070">+91 98290 44112 rings a desk in Jaipur, not a call centre queue.</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:64px 40px 72px">
+        <h2 style="margin:0 0 26px;font:800 34px/1.1 Archivo,sans-serif;letter-spacing:-0.02em">Reviews on Google</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+          <sc-for list="{{ reviews }}" as="v" hint-placeholder-count="3">
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:11px">
+              <span style="font:600 15px/1 Archivo,sans-serif;color:#E8A33D;letter-spacing:.14em">★★★★★</span>
+              <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#31343F">{{ v.text }}</p>
+              <div style="margin-top:auto;display:flex;flex-direction:column;gap:2px">
+                <span style="font:700 14px/1 Archivo,sans-serif">{{ v.name }}</span>
+                <span style="font:400 12.5px/1 Archivo,sans-serif;color:#7A7466">{{ v.meta }}</span>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="1b" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">1b</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Route page: Jaipur → Delhi — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+
+      <div style="background:#fff;border-bottom:1px solid #E2DCD0">
+        <div style="max-width:1240px;margin:0 auto;padding:10px 40px;font:400 12.5px/1 Archivo,sans-serif;color:#7A7466">
+          <a href="#1a" style="color:#7A7466;text-decoration:none">Home</a> › <a href="#1b" style="color:#7A7466;text-decoration:none">Routes</a> › <span style="color:#1A1D26;font-weight:600">Jaipur to Delhi</span>
+        </div>
+      </div>
+
+      <div style="max-width:1240px;margin:0 auto;padding:40px 40px 0;display:grid;grid-template-columns:1fr 420px;gap:48px;align-items:start">
+        <div>
+          <h1 style="margin:0 0 10px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">Jaipur to Delhi Taxi</h1>
+          <p style="margin:0 0 22px;font:500 19px/1.5 Archivo,sans-serif;color:#4A4E5C;font-variant-numeric:tabular-nums">280 km · about 5–6 hours via NH-48 · one-way and round trip</p>
+          <div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px 18px;background:#1B2A6B;color:#fff">
+            <span style="font:700 16px/1 Archivo,sans-serif">Sure fare</span><span style="color:#E8A33D">·</span>
+            <span style="font:700 16px/1 Archivo,sans-serif">Sure driver</span><span style="color:#E8A33D">·</span>
+            <span style="font:700 16px/1 Archivo,sans-serif">Sure time</span>
+            <span style="margin-left:auto;font:500 15px/1 'Noto Sans Devanagari',sans-serif;color:#E8A33D">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</span>
+          </div>
+
+          <h2 style="margin:38px 0 6px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Fares for this route</h2>
+          <sc-if value="{{ showNote }}" hint-placeholder-val="{{ true }}">
+            <p style="margin:0 0 16px;font:400 14px/1 Archivo,sans-serif;color:#7A7466">Figures below are placeholders for layout — client supplies the real fares.</p>
+          </sc-if>
+          <div style="overflow-x:auto;background:#fff;border:1px solid #E2DCD0">
+            <table style="width:100%;min-width:640px;font-variant-numeric:tabular-nums">
+              <thead>
+                <tr style="background:#1B2A6B;color:#fff">
+                  <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Vehicle</th>
+                  <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Seats</th>
+                  <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">One-way</th>
+                  <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Round trip</th>
+                  <th style="padding:14px 18px"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <sc-for list="{{ fareRows }}" as="row" hint-placeholder-count="5">
+                  <tr style="border-top:1px solid #EAE5DC">
+                    <td style="padding:16px 18px;font:700 17px/1.2 Archivo,sans-serif">{{ row.veh }}</td>
+                    <td style="padding:16px 18px;font:500 15px/1 Archivo,sans-serif;color:#5C6070">{{ row.seats }}</td>
+                    <td style="padding:16px 18px;text-align:right;font:700 20px/1 Archivo,sans-serif;letter-spacing:-0.01em">{{ row.one }}</td>
+                    <td style="padding:16px 18px;text-align:right;font:700 20px/1 Archivo,sans-serif;letter-spacing:-0.01em">{{ row.round }}</td>
+                    <td style="padding:16px 18px;text-align:right"><a href="https://wa.me/919829044112" style="display:inline-block;background:#E8A33D;color:#1A1D26;padding:10px 14px;font:700 13px/1 Archivo,sans-serif;text-decoration:none">Book</a></td>
+                  </tr>
+                </sc-for>
+              </tbody>
+            </table>
+          </div>
+          <p style="margin:14px 0 0;padding:14px 18px;background:#FBF3E3;border-left:4px solid #E8A33D;font:700 16px/1.5 Archivo,sans-serif">Toll, parking, state tax and driver allowance are charged separately and listed before you book.</p>
+
+          <h2 style="margin:44px 0 12px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">About the drive</h2>
+          <div style="display:flex;flex-direction:column;gap:14px;max-width:720px">
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">It is NH-48 the whole way — Jaipur to Delhi with no diversions, four to six lanes, in good condition. Leaving Jaipur at 6:30 in the morning you are usually at South Delhi by half past eleven. Leave at nine and Gurgaon traffic adds an hour at the far end; leaving after four in the afternoon means arriving in the evening rush, which we will tell you honestly when you call.</p>
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">There are four toll plazas between Jaipur and the Delhi border — Manoharpur, Shahjahanpur, Daruhera and Kherki Daula. Our drivers stop once, usually at the Behror dhabas about two hours in, where the Rajasthani thali is good and the washrooms are clean enough for a family. If you would rather stop earlier, Midway Manoharpur is about ninety minutes out.</p>
+            <p style="margin:0;font:400 16px/1.7 Archivo,sans-serif;color:#31343F">For a round trip the same driver stays with you in Delhi and brings you back — you are not handed to a second car. Airport drops go to T1, T2 or T3 as you need, and the driver waits at the pillar number you send him.</p>
+          </div>
+
+          <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Popular stops on this route</h2>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+            <sc-for list="{{ stops }}" as="s" hint-placeholder-count="3">
+              <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden">
+                <div style="height:110px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:10px">
+                  <span style="font:500 9.5px/1.3 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real photo of stop</span>
+                </div>
+                <div style="padding:16px;display:flex;flex-direction:column;gap:5px">
+                  <span style="font:700 18px/1.2 Archivo,sans-serif">{{ s.name }}</span>
+                  <span style="font:500 13px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ s.km }}</span>
+                  <span style="font:400 14px/1.55 Archivo,sans-serif;color:#5C6070">{{ s.note }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+
+          <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Questions we get asked</h2>
+          <div style="display:flex;flex-direction:column;gap:1px;background:#E2DCD0;border:1px solid #E2DCD0">
+            <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="6">
+              <div style="background:#fff;padding:20px 22px;display:flex;flex-direction:column;gap:7px">
+                <span style="font:700 18px/1.35 Archivo,sans-serif">{{ f.q }}</span>
+                <span style="font:400 15px/1.65 Archivo,sans-serif;color:#4A4E5C">{{ f.a }}</span>
+              </div>
+            </sc-for>
+          </div>
+
+          <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">From passengers on this route</h2>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <sc-for list="{{ routeReviews }}" as="v" hint-placeholder-count="2">
+              <div style="background:#fff;border:1px solid #E2DCD0;padding:22px;display:flex;flex-direction:column;gap:11px">
+                <span style="font:600 15px/1 Archivo,sans-serif;color:#E8A33D;letter-spacing:.14em">★★★★★</span>
+                <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#31343F">{{ v.text }}</p>
+                <div style="display:flex;flex-direction:column;gap:2px">
+                  <span style="font:700 14px/1 Archivo,sans-serif">{{ v.name }}</span>
+                  <span style="font:400 12.5px/1 Archivo,sans-serif;color:#7A7466">{{ v.meta }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+
+          <h2 style="margin:44px 0 16px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Related routes</h2>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding-bottom:72px">
+            <sc-for list="{{ related }}" as="r" hint-placeholder-count="4">
+              <a href="#1b" style="background:#fff;border:1px solid #E2DCD0;padding:16px;text-decoration:none;color:#1A1D26;display:flex;flex-direction:column;gap:4px">
+                <span style="font:700 16px/1.25 Archivo,sans-serif">{{ r.title }}</span>
+                <span style="font:500 13px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ r.km }}</span>
+              </a>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:16px;position:sticky;top:20px">
+          <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden">
+            <div style="height:150px;background:repeating-linear-gradient(115deg,#3A4064 0 14px,#333854 14px 28px);display:flex;align-items:flex-end;padding:12px">
+              <span style="font:500 10px/1.3 ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#A8AEC9">real fleet photo — Dzire on NH-48</span>
+            </div>
+            <div style="padding:22px;display:flex;flex-direction:column;gap:14px">
+              <div style="display:flex;flex-direction:column;gap:4px">
+                <span style="font:700 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">Book Jaipur → Delhi</span>
+                <span style="font:400 14px/1.5 Archivo,sans-serif;color:#5C6070">Tell us the date and pickup address. Fare in writing within minutes.</span>
+              </div>
+              <a href="tel:+919829044112" style="display:flex;flex-direction:column;gap:3px;background:#1B2A6B;color:#fff;padding:14px 16px;text-decoration:none">
+                <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#B9C0DE">Call — Jaipur to Delhi</span>
+                <span style="font:800 22px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums">+91 98290 44112</span>
+              </a>
+              <a href="https://wa.me/919829044112?text=Jaipur%20to%20Delhi" style="display:flex;align-items:center;justify-content:center;gap:8px;background:#127A56;color:#fff;padding:15px;font:700 16px/1 Archivo,sans-serif;text-decoration:none">WhatsApp "Jaipur to Delhi"</a>
+              <div style="border-top:1px solid #EAE5DC;padding-top:12px;display:flex;flex-direction:column;gap:7px">
+                <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ Fixed fare, quoted in writing</span>
+                <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ Driver's name and number the evening before</span>
+                <span style="font:600 13px/1.4 Archivo,sans-serif;color:#31343F">✓ No advance to get a quote</span>
+              </div>
+            </div>
+          </div>
+          <div style="background:#FBF3E3;border:1px solid #EBD9B4;padding:18px 20px;display:flex;flex-direction:column;gap:6px">
+            <span style="font:700 16px/1.3 Archivo,sans-serif">Hindi mein baat karein</span>
+            <span style="font:500 15px/1.6 'Noto Sans Devanagari',sans-serif;color:#31343F">फोन पर हिंदी में बात कीजिए। किराया पहले बताया जाएगा, बाद में कोई बदलाव नहीं।</span>
+          </div>
+        </div>
+      </div>
+
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="1c" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">1c</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Route page — mobile</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">390 · scrolls</span>
+    </div>
+    <div style="width:390px;height:844px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow-y:auto;overflow-x:hidden;position:relative">
+      <dc-import name="SureRideHeader" mobile="{{ true }}" hint-size="390px,60px"></dc-import>
+      <div style="padding:16px 14px 0">
+        <span style="font:400 11px/1 Archivo,sans-serif;color:#7A7466">Home › Routes › Jaipur to Delhi</span>
+        <h1 style="margin:8px 0 6px;font:800 30px/1.1 Archivo,sans-serif;letter-spacing:-0.025em">Jaipur to Delhi Taxi</h1>
+        <p style="margin:0 0 14px;font:500 14.5px/1.5 Archivo,sans-serif;color:#4A4E5C;font-variant-numeric:tabular-nums">280 km · about 5–6 hours via NH-48 · one-way and round trip</p>
+        <div style="background:#1B2A6B;color:#fff;padding:11px 13px;display:flex;flex-direction:column;gap:4px">
+          <span style="font:700 15px/1 Archivo,sans-serif">Sure fare · Sure driver · Sure time</span>
+          <span style="font:500 13.5px/1.4 'Noto Sans Devanagari',sans-serif;color:#E8A33D">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</span>
+        </div>
+        <div style="margin-top:14px;height:150px;background:repeating-linear-gradient(115deg,#3A4064 0 14px,#333854 14px 28px);display:flex;align-items:flex-end;padding:10px">
+          <span style="font:500 9.5px/1.3 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#A8AEC9">real fleet photo</span>
+        </div>
+
+        <h2 style="margin:24px 0 4px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Fares for this route</h2>
+        <p style="margin:0 0 10px;font:400 12px/1.4 Archivo,sans-serif;color:#7A7466">Placeholder figures — client supplies real fares.</p>
+        <div style="overflow-x:auto;background:#fff;border:1px solid #E2DCD0">
+          <table style="min-width:420px;width:100%;font-variant-numeric:tabular-nums">
+            <thead>
+              <tr style="background:#1B2A6B;color:#fff">
+                <th style="text-align:left;padding:10px 12px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Vehicle</th>
+                <th style="text-align:right;padding:10px 12px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">One-way</th>
+                <th style="text-align:right;padding:10px 12px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Round</th>
+              </tr>
+            </thead>
+            <tbody>
+              <sc-for list="{{ fareRows }}" as="row" hint-placeholder-count="5">
+                <tr style="border-top:1px solid #EAE5DC">
+                  <td style="padding:12px;font:700 14.5px/1.2 Archivo,sans-serif">{{ row.veh }}</td>
+                  <td style="padding:12px;text-align:right;font:700 16px/1 Archivo,sans-serif">{{ row.one }}</td>
+                  <td style="padding:12px;text-align:right;font:700 16px/1 Archivo,sans-serif">{{ row.round }}</td>
+                </tr>
+              </sc-for>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin:10px 0 0;padding:12px 14px;background:#FBF3E3;border-left:4px solid #E8A33D;font:700 14px/1.5 Archivo,sans-serif">Toll, parking, state tax and driver allowance are charged separately and listed before you book.</p>
+
+        <h2 style="margin:24px 0 8px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">About the drive</h2>
+        <p style="margin:0 0 10px;font:400 14.5px/1.7 Archivo,sans-serif;color:#31343F">NH-48 the whole way, four to six lanes, good surface. Leave Jaipur at 6:30 am and you are in South Delhi by about 11:30. Leave at nine and Gurgaon traffic adds an hour at the end.</p>
+        <p style="margin:0;font:400 14.5px/1.7 Archivo,sans-serif;color:#31343F">Four toll plazas — Manoharpur, Shahjahanpur, Daruhera, Kherki Daula. One stop, usually the Behror dhabas at the two-hour mark.</p>
+
+        <h2 style="margin:24px 0 10px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Stops on this route</h2>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ stops }}" as="s" hint-placeholder-count="3">
+            <div style="background:#fff;border:1px solid #E2DCD0;padding:14px;display:flex;flex-direction:column;gap:3px">
+              <span style="font:700 16px/1.2 Archivo,sans-serif">{{ s.name }}</span>
+              <span style="font:500 12px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ s.km }}</span>
+              <span style="font:400 13.5px/1.5 Archivo,sans-serif;color:#5C6070">{{ s.note }}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <h2 style="margin:24px 0 10px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Questions we get asked</h2>
+        <div style="display:flex;flex-direction:column;gap:1px;background:#E2DCD0;border:1px solid #E2DCD0">
+          <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="6">
+            <div style="background:#fff;padding:14px;display:flex;flex-direction:column;gap:5px">
+              <span style="font:700 15.5px/1.35 Archivo,sans-serif">{{ f.q }}</span>
+              <span style="font:400 13.5px/1.6 Archivo,sans-serif;color:#4A4E5C">{{ f.a }}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <h2 style="margin:24px 0 10px;font:800 22px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Related routes</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:24px">
+          <sc-for list="{{ related }}" as="r" hint-placeholder-count="4">
+            <a href="#1c" style="background:#fff;border:1px solid #E2DCD0;padding:12px;text-decoration:none;color:#1A1D26;display:flex;flex-direction:column;gap:3px">
+              <span style="font:700 14px/1.25 Archivo,sans-serif">{{ r.title }}</span>
+              <span style="font:500 12px/1 Archivo,sans-serif;color:#7A7466;font-variant-numeric:tabular-nums">{{ r.km }}</span>
+            </a>
+          </sc-for>
+        </div>
+      </div>
+      <div style="position:sticky;bottom:0;background:#fff;border-top:1px solid #DCD6CB;padding:9px 10px;display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:8px;box-shadow:0 -8px 24px rgba(26,29,38,.14)">
+        <a href="tel:+919829044112" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#1B2A6B;color:#fff;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:700 14px/1 Archivo,sans-serif">Call</span>
+          <span style="font:500 9px/1 Archivo,sans-serif;color:#B9C0DE">24 hours</span>
+        </a>
+        <a href="https://wa.me/919829044112?text=Jaipur%20to%20Delhi" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#127A56;color:#fff;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:700 14px/1 Archivo,sans-serif">WhatsApp</span>
+          <span style="font:500 9px/1 Archivo,sans-serif;color:#B7E3CE">Jaipur → Delhi</span>
+        </a>
+        <a href="#1c" style="display:flex;flex-direction:column;align-items:center;gap:2px;background:#E8A33D;color:#1A1D26;padding:12px 6px;text-decoration:none;min-height:48px">
+          <span style="font:800 14px/1 Archivo,sans-serif">Get fare</span>
+          <span style="font:600 9px/1 Archivo,sans-serif;color:#5E4718">in writing</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="1d" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">1d</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Fares page — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+      <div style="max-width:1240px;margin:0 auto;padding:44px 40px 0">
+        <h1 style="margin:0 0 10px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">Fares and charges, in full</h1>
+        <p style="margin:0 0 8px;max-width:760px;font:400 19px/1.55 Archivo,sans-serif;color:#4A4E5C">Every rate we charge is on this page. When you call, we quote from these numbers and send the total in writing before you agree to anything.</p>
+        <p style="margin:0 0 28px;font:500 17px/1.5 'Noto Sans Devanagari',sans-serif;color:#1B2A6B">किराया पक्का। ड्राइवर पक्का। टाइम पक्का।</p>
+
+        <h2 style="margin:0 0 6px;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em">Per-kilometre rates and daily minimum</h2>
+        <p style="margin:0 0 14px;font:400 14px/1 Archivo,sans-serif;color:#7A7466">Outstation, per vehicle. Placeholder figures for layout.</p>
+        <div style="overflow-x:auto;background:#fff;border:1px solid #E2DCD0">
+          <table style="width:100%;min-width:900px;font-variant-numeric:tabular-nums">
+            <thead>
+              <tr style="background:#1B2A6B;color:#fff">
+                <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Vehicle</th>
+                <th style="text-align:left;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Seats</th>
+                <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Per km</th>
+                <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Daily minimum</th>
+                <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Local 8hr / 80km</th>
+                <th style="text-align:right;padding:14px 18px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.06em;text-transform:uppercase">Night charge</th>
+              </tr>
+            </thead>
+            <tbody>
+              <sc-for list="{{ rateRows }}" as="row" hint-placeholder-count="5">
+                <tr style="border-top:1px solid #EAE5DC">
+                  <td style="padding:16px 18px;font:700 17px/1.2 Archivo,sans-serif">{{ row.veh }}</td>
+                  <td style="padding:16px 18px;font:500 15px/1 Archivo,sans-serif;color:#5C6070">{{ row.seats }}</td>
+                  <td style="padding:16px 18px;text-align:right;font:700 20px/1 Archivo,sans-serif">{{ row.perKm }}</td>
+                  <td style="padding:16px 18px;text-align:right;font:500 16px/1 Archivo,sans-serif;color:#31343F">{{ row.minDay }}</td>
+                  <td style="padding:16px 18px;text-align:right;font:500 16px/1 Archivo,sans-serif;color:#31343F">{{ row.local }}</td>
+                  <td style="padding:16px 18px;text-align:right;font:500 16px/1 Archivo,sans-serif;color:#31343F">{{ row.night }}</td>
+                </tr>
+              </sc-for>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#7A7466">Driver allowance</span>
+            <span style="font:800 32px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">₹300 <span style="font:500 17px/1 Archivo,sans-serif;color:#5C6070">per day</span></span>
+            <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">₹400 a day on trips with a night halt. This is the driver's food and rest money and it goes to him, not to us.</span>
+          </div>
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:24px;display:flex;flex-direction:column;gap:8px">
+            <span style="font:600 10px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#7A7466">Night charge</span>
+            <span style="font:800 32px/1 Archivo,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em">₹300 <span style="font:500 17px/1 Archivo,sans-serif;color:#5C6070">11 pm – 6 am</span></span>
+            <span style="font:400 15px/1.6 Archivo,sans-serif;color:#4A4E5C">Charged once per trip, not per hour. Applies when the pickup or the drop falls inside those hours — airport runs included.</span>
+          </div>
+        </div>
+
+        <div style="margin-top:44px;display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div style="width:66px;height:34px;background:#1B2A6B;border-radius:56px 56px 3px 3px"></div>
+          <h2 style="margin:0;font:800 28px/1.15 Archivo,sans-serif;letter-spacing:-0.02em;text-align:center">What toll, parking and state tax actually mean</h2>
+          <p style="margin:0;max-width:640px;text-align:center;font:400 15px/1.6 Archivo,sans-serif;color:#5C6070">Three charges get added on top of the fare on most outstation trips. They are government and highway charges, not ours — here is exactly when each one applies.</p>
+        </div>
+        <div style="margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+          <sc-for list="{{ charges }}" as="c" hint-placeholder-count="3">
+            <div style="background:#fff;border:1px solid #E2DCD0;border-top:4px solid #E8A33D;padding:24px;display:flex;flex-direction:column;gap:9px">
+              <span style="font:700 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">{{ c.title }}</span>
+              <span style="font:600 14px/1.4 Archivo,sans-serif;color:#1B2A6B">{{ c.when }}</span>
+              <span style="font:400 15px/1.65 Archivo,sans-serif;color:#4A4E5C">{{ c.body }}</span>
+              <span style="margin-top:auto;padding-top:10px;border-top:1px solid #EAE5DC;font:500 14.5px/1.5 'Noto Sans Devanagari',sans-serif;color:#31343F">{{ c.hi }}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <div style="margin-top:36px;display:grid;grid-template-columns:1.2fr 1fr;gap:16px;padding-bottom:64px">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:26px">
+            <h3 style="margin:0 0 14px;font:800 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">What is never added later</h3>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <span style="font:500 15.5px/1.5 Archivo,sans-serif;color:#31343F">✓ No surge or peak-hour pricing — the fare you are quoted on Tuesday is the fare on Diwali.</span>
+              <span style="font:500 15.5px/1.5 Archivo,sans-serif;color:#31343F">✓ No booking fee, no convenience fee, no GST surprise on the invoice.</span>
+              <span style="font:500 15.5px/1.5 Archivo,sans-serif;color:#31343F">✓ No charge for waiting up to 45 minutes at the airport, or for one dhaba stop.</span>
+              <span style="font:500 15.5px/1.5 Archivo,sans-serif;color:#31343F">✓ No extra for luggage, a carrier, or a child seat if you ask in advance.</span>
+            </div>
+          </div>
+          <div style="background:#1B2A6B;color:#fff;padding:26px;display:flex;flex-direction:column;gap:14px">
+            <h3 style="margin:0;font:800 22px/1.25 Archivo,sans-serif;letter-spacing:-0.01em">Comparing quotes? Call and we will read the whole total out.</h3>
+            <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#C9CFE8">Fare, toll, state tax, allowance — one number, said once, on the phone or on WhatsApp in writing.</p>
+            <a href="tel:+919829044112" style="background:#E8A33D;color:#1A1D26;padding:15px;text-align:center;font:800 19px/1 Archivo,sans-serif;text-decoration:none;font-variant-numeric:tabular-nums">+91 98290 44112</a>
+            <a href="https://wa.me/919829044112" style="background:#127A56;color:#fff;padding:14px;text-align:center;font:700 16px/1 Archivo,sans-serif;text-decoration:none">WhatsApp for a written quote</a>
+          </div>
+        </div>
+      </div>
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+  <div id="1e" style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="background:#E8A33D;color:#1A1D26;font:700 12px/1 ui-monospace,monospace;padding:6px 9px;border-radius:3px">1e</span>
+      <span style="font:600 15px/1 Archivo,sans-serif;color:#F4F1EC">Drivers page — desktop</span>
+      <span style="font:400 12px/1 ui-monospace,monospace;color:#7C8090">1440</span>
+    </div>
+    <div style="width:1440px;background:#F4F1EC;color:#1A1D26;box-shadow:0 30px 90px rgba(0,0,0,.5);overflow:hidden">
+      <dc-import name="SureRideHeader" hint-size="1440px,76px"></dc-import>
+      <div style="max-width:1240px;margin:0 auto;padding:44px 40px 0">
+        <h1 style="margin:0 0 12px;max-width:900px;font:800 46px/1.08 Archivo,sans-serif;letter-spacing:-0.025em">You should know who is driving your family before they arrive.</h1>
+        <p style="margin:0 0 8px;max-width:780px;font:400 19px/1.55 Archivo,sans-serif;color:#4A4E5C">That is why our drivers are named here. They are on our payroll, they have been with us for years, and the one assigned to your trip is told to you the evening before — name, photo and phone number.</p>
+        <p style="margin:0 0 30px;font:500 17px/1.5 'Noto Sans Devanagari',sans-serif;color:#1B2A6B">ड्राइवर का नाम और नंबर यात्रा से पहले भेज दिया जाता है।</p>
+        <p style="margin:0 0 20px;font:400 14px/1 Archivo,sans-serif;color:#7A7466">Placeholder cards below — client supplies real drivers and photographs.</p>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
+          <sc-for list="{{ drivers }}" as="d" hint-placeholder-count="8">
+            <div style="background:#fff;border:1px solid #E2DCD0;overflow:hidden;display:flex;flex-direction:column">
+              <div style="height:200px;background:repeating-linear-gradient(135deg,#DCD6CB 0 10px,#EAE5DC 10px 20px);display:flex;align-items:flex-end;padding:12px">
+                <span style="font:500 9.5px/1.35 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#6B6255">real driver photo —<br />phone snapshot</span>
+              </div>
+              <div style="padding:18px;display:flex;flex-direction:column;gap:10px">
+                <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
+                  <span style="font:800 24px/1 Archivo,sans-serif;letter-spacing:-0.015em">{{ d.name }}</span>
+                  <span style="font:700 13px/1 Archivo,sans-serif;color:#1B2A6B;font-variant-numeric:tabular-nums">{{ d.years }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Languages</span>
+                  <span style="font:500 14.5px/1.4 Archivo,sans-serif">{{ d.lang }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <span style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7A7466">Knows best</span>
+                  <span style="font:500 14.5px/1.45 Archivo,sans-serif;color:#31343F">{{ d.routes }}</span>
+                </div>
+                <div style="margin-top:auto;padding-top:10px;border-top:1px solid #EAE5DC;display:flex;align-items:center;gap:8px">
+                  <div style="width:6px;height:6px;border-radius:99px;background:#127A56"></div>
+                  <span style="font:500 12.5px/1 Archivo,sans-serif;color:#5C6070">{{ d.status }}</span>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+        <div style="margin:44px 0 64px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="background:#fff;border:1px solid #E2DCD0;padding:26px">
+            <h3 style="margin:0 0 14px;font:800 22px/1.2 Archivo,sans-serif;letter-spacing:-0.01em">How we run the drivers</h3>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <span style="font:500 15.5px/1.55 Archivo,sans-serif;color:#31343F">Every driver holds a commercial licence and a valid police verification, kept on file at our Jaipur office.</span>
+              <span style="font:500 15.5px/1.55 Archivo,sans-serif;color:#31343F">On a round trip the same driver stays with you for the whole journey. You are never handed over to another car.</span>
+              <span style="font:500 15.5px/1.55 Archivo,sans-serif;color:#31343F">Long drives are planned with a rest break. We would rather leave an hour earlier than push a tired driver.</span>
+            </div>
+          </div>
+          <div style="background:#1B2A6B;color:#fff;padding:26px;display:flex;flex-direction:column;gap:14px">
+            <h3 style="margin:0;font:800 22px/1.25 Archivo,sans-serif;letter-spacing:-0.01em">Want a driver you have travelled with before?</h3>
+            <p style="margin:0;font:400 15px/1.6 Archivo,sans-serif;color:#C9CFE8">Tell us his name when you book and we will put him on the trip if he is free. Families going to Khatu Shyam ask for this often.</p>
+            <a href="tel:+919829044112" style="background:#E8A33D;color:#1A1D26;padding:15px;text-align:center;font:800 19px/1 Archivo,sans-serif;text-decoration:none;font-variant-numeric:tabular-nums">+91 98290 44112</a>
+            <a href="https://wa.me/919829044112" style="background:#127A56;color:#fff;padding:14px;text-align:center;font:700 16px/1 Archivo,sans-serif;text-decoration:none">WhatsApp us</a>
+            <span style="font:italic 400 13px/1 Archivo,sans-serif;color:#8C95BE">Family-run in Jaipur since 2006</span>
+          </div>
+        </div>
+      </div>
+      <dc-import name="SureRideFooter" hint-size="1440px,420px"></dc-import>
+    </div>
+  </div>
+
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showHindi&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;showFarePlaceholderNote&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showHindi: this.props.showHindi ?? true,
+      routePages: [
+        {
+          badge: "2e-1", label: "Delhi → Jaipur", crumb: "Delhi to Jaipur",
+          h1: "Delhi to Jaipur Taxi", sub: "280 km · about 5–6 hours via NH-48 · one-way and round trip",
+          photoLabel: "real fleet photo — pickup at Delhi airport T3",
+          bookHeading: "Book Delhi → Jaipur", callLabel: "Call — Delhi to Jaipur", waLabel: "WhatsApp \"Delhi to Jaipur\"",
+          driveHeading: "About the drive", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹4,500", round: "₹7,800" },
+            { veh: "Ertiga", seats: "6", one: "₹5,500", round: "₹9,200" },
+            { veh: "Innova", seats: "7", one: "₹6,500", round: "₹10,800" },
+            { veh: "Innova Crysta", seats: "7", one: "₹7,500", round: "₹12,500" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹11,000", round: "₹18,000" }
+          ],
+          prose: [
+            { text: "Pickup anywhere in Delhi, Noida, Gurgaon, Faridabad or Ghaziabad, and from all three airport terminals. Getting out of Delhi is the slow part — from South Delhi you are on open highway in forty minutes, from Noida or Ghaziabad allow an hour and a half before the Kherki Daula plaza." },
+            { text: "After that it is NH-48 all the way, four to six lanes, and the driving is easy. Most passengers reach Jaipur in five to six hours with one stop at Behror. For an early flight out of Jaipur we recommend leaving Delhi the previous evening rather than driving through the night." }
+          ],
+          stops: [
+            { name: "Manesar", km: "40 km from Delhi", note: "Where Delhi traffic finally releases. Tea stop if you left in the rush hour." },
+            { name: "Behror", km: "120 km from Delhi", note: "The standard halt. Rajasthani thali, clean washrooms, about twenty minutes." },
+            { name: "Neemrana Fort", km: "158 km from Delhi", note: "A short detour for lunch at the fort. Tell us when booking and the driver plans for it." }
+          ],
+          faqs: [
+            { q: "Can you pick up from Delhi airport?", a: "Yes, from T1, T2 and T3. The driver waits at the pillar number you send him, and 45 minutes of waiting after landing is free." },
+            { q: "How long does the Delhi to Jaipur drive take?", a: "Five to six hours from South Delhi. From Noida or Ghaziabad add an hour for the crossing. Leaving before 7 am or after 8 pm avoids the worst of it." },
+            { q: "Are toll and state tax included?", a: "No. Toll, parking, state tax and driver allowance are charged separately and listed before you book. Delhi to Jaipur crosses Haryana and Rajasthan, so two state charges apply." },
+            { q: "Do you pick up from Noida and Gurgaon?", a: "Yes, and from Faridabad and Ghaziabad. Gurgaon is the quickest start; Noida adds about an hour of city driving to the front of the trip." },
+            { q: "Will I get the driver's number before the trip?", a: "The evening before pickup we send his name, photo and mobile number on WhatsApp so you can confirm the address directly with him." }
+          ],
+          reviews: [
+            { text: "Picked us up at T3 at eleven at night after a delayed flight, no extra charge asked. Reached Jaipur at four in the morning safely.", name: "Deepak Nair", meta: "Google review · Delhi to Jaipur, June 2026" },
+            { text: "Booked from Noida for my in-laws. The driver called them the night before and again in the morning. Fare was what we agreed on WhatsApp.", name: "Shalini G.", meta: "Google review · Delhi to Jaipur, April 2026" }
+          ],
+          related: [
+            { title: "Jaipur → Delhi", km: "280 km" }, { title: "Delhi → Agra", km: "230 km" },
+            { title: "Jaipur → Gurgaon", km: "260 km" }, { title: "Jaipur → Mathura", km: "230 km" }
+          ]
+        },
+        {
+          badge: "2e-2", label: "Jaipur → Agra", crumb: "Jaipur to Agra",
+          h1: "Jaipur to Agra Taxi", sub: "240 km · about 4–5 hours via NH-21 and the Yamuna Expressway link · one-way and round trip",
+          photoLabel: "real fleet photo — Innova at Fatehpur Sikri",
+          bookHeading: "Book Jaipur → Agra", callLabel: "Call — Jaipur to Agra", waLabel: "WhatsApp \"Jaipur to Agra\"",
+          driveHeading: "About the drive", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹4,200", round: "₹7,200" },
+            { veh: "Ertiga", seats: "6", one: "₹5,200", round: "₹8,600" },
+            { veh: "Innova", seats: "7", one: "₹6,000", round: "₹10,200" },
+            { veh: "Innova Crysta", seats: "7", one: "₹7,000", round: "₹11,800" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹10,500", round: "₹17,000" }
+          ],
+          prose: [
+            { text: "Four to five hours on good road, with Bharatpur roughly halfway. This is the Golden Triangle leg, so most passengers ask for a stop at Fatehpur Sikri, which adds about two hours including the walk up. If you want the Taj at sunrise, leave Jaipur by two in the morning — our drivers do this run often and it is quiet the whole way." },
+            { text: "A same-day return is comfortable if you leave early: Taj Mahal, lunch, Agra Fort, back in Jaipur by nine. Say so when booking and we allocate a driver who knows the parking and the ticket gates, which saves an hour of wandering." }
+          ],
+          stops: [
+            { name: "Bharatpur", km: "180 km from Jaipur", note: "Keoladeo bird sanctuary and the usual lunch halt on this route." },
+            { name: "Fatehpur Sikri", km: "205 km from Jaipur", note: "Adds about two hours. The driver drops you at the shuttle point and waits." },
+            { name: "Abhaneri Stepwell", km: "95 km from Jaipur", note: "A twenty-minute detour off the highway. Worth it if you have not seen it." }
+          ],
+          faqs: [
+            { q: "Can we stop at Fatehpur Sikri on the way?", a: "Yes, and most passengers do. It adds about two hours and no extra fare on a one-way trip — just tell us when you book so the timing works." },
+            { q: "Is a same-day Taj Mahal return possible?", a: "Yes. Leave Jaipur at 5 am and you have the whole afternoon in Agra with time to be back by evening. Friday is closed at the Taj." },
+            { q: "Are toll and state tax included in the fare?", a: "No. Toll, parking, state tax and driver allowance are listed separately before you book. Jaipur to Agra crosses into Uttar Pradesh, so one state charge applies." },
+            { q: "Do you cover the Golden Triangle as one trip?", a: "Yes — Delhi, Agra and Jaipur over three or four days with the same car and driver throughout. Call and we will quote the whole circuit." },
+            { q: "Will the driver guide us at the monuments?", a: "He is a driver, not a guide, but he knows the gates, the parking and the ticket counters, and will tell you honestly how long each stop takes." }
+          ],
+          reviews: [
+            { text: "Did Jaipur–Agra–Delhi over two days. Same Innova, same driver, he knew exactly where to park at the Taj. No surprises on the bill.", name: "Michael Brandt", meta: "Google review · Jaipur to Agra, March 2026" },
+            { text: "Left at 5 am for the Taj, stopped at Fatehpur Sikri coming back. Fare was fixed beforehand and they did not ask for anything extra.", name: "Sunita Jain", meta: "Google review · Jaipur to Agra, February 2026" }
+          ],
+          related: [
+            { title: "Jaipur → Delhi", km: "280 km" }, { title: "Jaipur → Mathura", km: "230 km" },
+            { title: "Jaipur → Ranthambore", km: "160 km" }, { title: "Delhi → Jaipur", km: "280 km" }
+          ]
+        },
+        {
+          badge: "2e-3", label: "Jaipur → Khatu Shyam Ji", crumb: "Jaipur to Khatu Shyam Ji",
+          h1: "Jaipur to Khatu Shyam Ji Taxi", sub: "80 km · about 2 hours via Ringas · same-day return with waiting included",
+          photoLabel: "real fleet photo — Ertiga at Khatu, early morning",
+          bookHeading: "Book Jaipur → Khatu Shyam", callLabel: "Call — Jaipur to Khatu", waLabel: "WhatsApp \"Jaipur to Khatu Shyam\"",
+          driveHeading: "About the drive and the darshan", stopsHeading: "Stops and temples nearby",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹2,200", round: "₹3,200" },
+            { veh: "Ertiga", seats: "6", one: "₹2,800", round: "₹4,000" },
+            { veh: "Innova", seats: "7", one: "₹3,400", round: "₹4,800" },
+            { veh: "Innova Crysta", seats: "7", one: "₹3,900", round: "₹5,600" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹6,000", round: "₹8,500" }
+          ],
+          prose: [
+            { text: "Two hours from Jaipur via Chomu and Ringas. Nearly everyone does this as a same-day return, and the round-trip fare includes waiting time at the temple — you are not paying by the hour while your family is inside." },
+            { text: "Leave Jaipur by five in the morning and you are in the queue before it builds. On Ekadashi, Phalgun Mela and weekends the crowd is heavy and the walk from parking is long, so we send a driver who knows where to drop elderly passengers closest to the gate. Many families continue to Salasar the same day; ask and we will quote both together." }
+          ],
+          stops: [
+            { name: "Ringas", km: "60 km from Jaipur", note: "Tea and prasad shops. The usual short halt before the last stretch." },
+            { name: "Salasar Balaji", km: "90 km further on", note: "Commonly added to the same trip. Ask for the Khatu–Salasar combined fare." },
+            { name: "Jeen Mata", km: "35 km from Khatu", note: "A quieter temple that pairs well if you have the afternoon." }
+          ],
+          faqs: [
+            { q: "Is waiting time at the temple included?", a: "Yes, on a round trip. The fare covers the driver waiting while you take darshan — up to four hours, which is more than enough on a normal day." },
+            { q: "What time should we leave Jaipur?", a: "Five in the morning on a normal day, four during Ekadashi or the Phalgun Mela. The queue grows quickly after eight." },
+            { q: "Can we add Salasar Balaji to the same trip?", a: "Yes. Khatu and Salasar together is a long day but very common. Call and we will quote it as one fare with both waiting times included." },
+            { q: "Is the road suitable for elderly passengers?", a: "Yes, it is tar road the whole way with one stop. Tell us if someone needs to be dropped close to the gate and the driver will manage it." },
+            { q: "Do you have a Tempo Traveller for a group?", a: "12 and 17 seaters, both ours. Popular for a family group going together — one vehicle works out cheaper than three cars." }
+          ],
+          reviews: [
+            { text: "Went for darshan with my mother and aunt. Driver dropped us near the gate and waited three hours without a word about extra money.", name: "Rakesh Sharma", meta: "Google review · Jaipur to Khatu, August 2026" },
+            { text: "Booked the Tempo for eleven of us during the mela. Left at four, back by two in the afternoon. Fare fixed on WhatsApp beforehand.", name: "Vinod Kumawat", meta: "Google review · Jaipur to Khatu, March 2026" }
+          ],
+          related: [
+            { title: "Jaipur → Salasar Balaji", km: "170 km" }, { title: "Jaipur → Mehandipur Balaji", km: "105 km" },
+            { title: "Jaipur → Rani Sati Dadi", km: "175 km" }, { title: "Jaipur → Ajmer & Pushkar", km: "135 km" }
+          ]
+        },
+        {
+          badge: "2e-4", label: "Jaipur → Ajmer & Pushkar", crumb: "Jaipur to Ajmer & Pushkar",
+          h1: "Jaipur to Ajmer &amp; Pushkar Taxi", sub: "135 km · about 3 hours via NH-48 · same-day return or overnight",
+          photoLabel: "real fleet photo — Dzire at Pushkar ghat road",
+          bookHeading: "Book Jaipur → Ajmer", callLabel: "Call — Jaipur to Ajmer", waLabel: "WhatsApp \"Jaipur to Ajmer & Pushkar\"",
+          driveHeading: "About the drive", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹2,800", round: "₹4,200" },
+            { veh: "Ertiga", seats: "6", one: "₹3,400", round: "₹5,200" },
+            { veh: "Innova", seats: "7", one: "₹4,000", round: "₹6,200" },
+            { veh: "Innova Crysta", seats: "7", one: "₹4,600", round: "₹7,000" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹7,000", round: "₹10,500" }
+          ],
+          prose: [
+            { text: "Three hours of straight six-lane highway with two toll plazas. Ajmer Sharif Dargah and Pushkar are fifteen kilometres apart, so almost everyone does both in one day: dargah in the morning, Brahma temple and the ghats in the afternoon, back in Jaipur by evening." },
+            { text: "Parking near the dargah is tight and the last stretch is on foot through the bazaar. Our drivers drop you at the Dargah Bazaar entrance and wait at the paid lot. During Urs and the Pushkar camel fair the town is closed to vehicles in places — we will tell you where you will actually be dropped before you book." }
+          ],
+          stops: [
+            { name: "Kishangarh", km: "100 km from Jaipur", note: "Marble market and a reliable highway lunch stop." },
+            { name: "Ajmer Sharif Dargah", km: "135 km from Jaipur", note: "Drop at Dargah Bazaar; the last few hundred metres are on foot." },
+            { name: "Pushkar", km: "150 km from Jaipur", note: "Brahma temple, the ghats and the bazaar. Fifteen minutes from Ajmer." }
+          ],
+          faqs: [
+            { q: "Can we do Ajmer and Pushkar in one day?", a: "Comfortably. Leave Jaipur at six, dargah by nine-thirty, Pushkar after lunch, back in Jaipur by eight in the evening. Round-trip fare includes the waiting." },
+            { q: "How close to the dargah can the car go?", a: "To the Dargah Bazaar entrance. Beyond that it is pedestrian only — about five minutes' walk. The driver waits in the paid parking nearby." },
+            { q: "Are toll and parking included?", a: "No. Two toll plazas and the Ajmer parking charge are separate and listed before you book, along with the driver allowance." },
+            { q: "What about the Pushkar camel fair?", a: "We run this route through the fair, but roads close and parking moves. Book a few days ahead and we will tell you exactly where the drop will be." },
+            { q: "Can we stay overnight in Pushkar?", a: "Yes. The driver stays with the car and the fare adds one night halt allowance. Tell us at booking so he can plan." }
+          ],
+          reviews: [
+            { text: "Dargah in the morning and Pushkar after lunch, all in one day. The driver knew where to park and where to wait for us.", name: "Imran Qureshi", meta: "Google review · Jaipur to Ajmer, July 2026" },
+            { text: "Clean Ertiga, driver on time at 6 am. Told us the toll amounts in advance and showed the receipts.", name: "Meena Sharma", meta: "Google review · Jaipur to Pushkar, January 2026" }
+          ],
+          related: [
+            { title: "Jaipur → Jodhpur", km: "335 km" }, { title: "Jaipur → Udaipur", km: "395 km" },
+            { title: "Jaipur → Khatu Shyam Ji", km: "80 km" }, { title: "Jaipur → Delhi", km: "280 km" }
+          ]
+        },
+        {
+          badge: "2e-5", label: "Jaipur → Udaipur", crumb: "Jaipur to Udaipur",
+          h1: "Jaipur to Udaipur Taxi", sub: "395 km · about 7 hours via NH-48 and Chittorgarh · one-way and round trip",
+          photoLabel: "real fleet photo — Crysta on the Chittorgarh road",
+          bookHeading: "Book Jaipur → Udaipur", callLabel: "Call — Jaipur to Udaipur", waLabel: "WhatsApp \"Jaipur to Udaipur\"",
+          driveHeading: "About the drive", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹6,500", round: "₹11,500" },
+            { veh: "Ertiga", seats: "6", one: "₹7,800", round: "₹13,500" },
+            { veh: "Innova", seats: "7", one: "₹9,000", round: "₹15,500" },
+            { veh: "Innova Crysta", seats: "7", one: "₹10,500", round: "₹18,000" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹15,500", round: "₹26,000" }
+          ],
+          prose: [
+            { text: "Seven hours with two stops, and the road is good the whole way — Ajmer, Bhilwara, Chittorgarh, then the last hour through the hills into Udaipur. It is a long day, so we plan it as one: leave Jaipur at six, lunch at Chittorgarh, and you are at your Udaipur hotel by two or three in the afternoon." },
+            { text: "Many passengers add Chittorgarh Fort as a proper stop rather than a lunch halt, which adds two hours and no extra fare on a one-way trip. If you want Kumbhalgarh or Ranakpur on the way, tell us — it is a different road and a longer day, and we will quote it honestly rather than promise both." }
+          ],
+          stops: [
+            { name: "Kishangarh", km: "100 km from Jaipur", note: "First tea stop, about ninety minutes out of Jaipur." },
+            { name: "Chittorgarh", km: "310 km from Jaipur", note: "Lunch, or a two-hour stop at the fort if you want to see it properly." },
+            { name: "Nathdwara", km: "48 km before Udaipur", note: "Shrinathji temple. A common addition for families on this route." }
+          ],
+          faqs: [
+            { q: "Is a one-day Jaipur to Udaipur drive comfortable?", a: "Yes, with an early start and two stops. Seven hours of driving; leaving at six means arriving mid-afternoon with the day still usable." },
+            { q: "Can we stop at Chittorgarh Fort?", a: "Yes. Two hours at the fort adds nothing to the one-way fare — just say so at booking so the driver leaves early enough." },
+            { q: "Can we add Nathdwara or Ranakpur?", a: "Nathdwara is right on the road and easy. Ranakpur and Kumbhalgarh are a different route and make it a much longer day — we will quote it as a two-day trip instead." },
+            { q: "What is charged on top of the fare?", a: "Toll, parking, state tax where applicable, and the driver allowance — ₹300 a day, ₹400 with a night halt. All listed before you book." },
+            { q: "Does the same driver stay for a round trip?", a: "Yes. He stays with you in Udaipur and drives you back. You are never handed to a second car partway." }
+          ],
+          reviews: [
+            { text: "Long drive but well managed. Two stops, both clean, and the driver never rushed. Reached Udaipur by three in the afternoon.", name: "Arvind Purohit", meta: "Google review · Jaipur to Udaipur, February 2026" },
+            { text: "Added Chittorgarh Fort on the way, no extra charge. Crysta was new and quiet, which matters for seven hours.", name: "Laura Kessler", meta: "Google review · Jaipur to Udaipur, December 2025" }
+          ],
+          related: [
+            { title: "Jaipur → Jodhpur", km: "335 km" }, { title: "Jaipur → Ajmer & Pushkar", km: "135 km" },
+            { title: "Udaipur → Jaipur", km: "395 km" }, { title: "Jaipur → Ranthambore", km: "160 km" }
+          ]
+        },
+        {
+          badge: "2e-6", label: "Jaipur → Jodhpur", crumb: "Jaipur to Jodhpur",
+          h1: "Jaipur to Jodhpur Taxi", sub: "335 km · about 6 hours via NH-58 and Bar · one-way and round trip",
+          photoLabel: "real fleet photo — Innova near Mehrangarh",
+          bookHeading: "Book Jaipur → Jodhpur", callLabel: "Call — Jaipur to Jodhpur", waLabel: "WhatsApp \"Jaipur to Jodhpur\"",
+          driveHeading: "About the drive", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹5,800", round: "₹9,800" },
+            { veh: "Ertiga", seats: "6", one: "₹6,800", round: "₹11,500" },
+            { veh: "Innova", seats: "7", one: "₹8,000", round: "₹13,500" },
+            { veh: "Innova Crysta", seats: "7", one: "₹9,200", round: "₹15,500" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹13,500", round: "₹22,000" }
+          ],
+          prose: [
+            { text: "Six hours through Kishangarh, Beawar and Bar. The first half is highway; the middle stretch is a good two-lane road through open country where the driving is slower but easy. Leaving Jaipur at seven puts you at Mehrangarh in the early afternoon." },
+            { text: "Ajmer and Pushkar sit close to this road, so a stop there costs you about two hours and nothing on the fare. Families often make this the first leg of a longer Rajasthan circuit — Jaipur, Jodhpur, Jaisalmer, Udaipur — with the same car and driver for the week. Call and we will price the circuit rather than the legs." }
+          ],
+          stops: [
+            { name: "Kishangarh", km: "100 km from Jaipur", note: "Marble market. First tea and washroom stop." },
+            { name: "Pushkar", km: "150 km from Jaipur", note: "Two hours off the road for the Brahma temple and the ghats." },
+            { name: "Beawar", km: "185 km from Jaipur", note: "The usual lunch halt on this route. Plain but reliable dhabas." }
+          ],
+          faqs: [
+            { q: "How long does the Jaipur to Jodhpur drive take?", a: "About six hours with one stop. The road is good throughout, with a slower two-lane stretch between Beawar and Bar." },
+            { q: "Can we stop at Pushkar on the way?", a: "Yes, it is close to the road. Two hours there adds nothing to a one-way fare. Tell us at booking." },
+            { q: "Can you continue to Jaisalmer?", a: "Yes — Jodhpur to Jaisalmer is another five hours. Most people make it a multi-day circuit with the same car and driver, which we quote as one trip." },
+            { q: "What is charged separately?", a: "Toll, parking, state tax where it applies, and driver allowance. All listed in writing before you book." },
+            { q: "Is there a night halt charge for the driver?", a: "₹400 a day when the trip involves an overnight stay. That covers his food and rest and goes to him." }
+          ],
+          reviews: [
+            { text: "Jaipur to Jodhpur with a Pushkar stop, exactly as they said on the phone. Nothing added at the end of the trip.", name: "Gopal Vyas", meta: "Google review · Jaipur to Jodhpur, June 2026" },
+            { text: "Took their Innova for six days across Rajasthan. One driver the whole week, he became part of the trip.", name: "Neha Bhargava", meta: "Google review · Jaipur to Jodhpur, November 2025" }
+          ],
+          related: [
+            { title: "Jaipur → Udaipur", km: "395 km" }, { title: "Jodhpur → Jaisalmer", km: "285 km" },
+            { title: "Jaipur → Ajmer & Pushkar", km: "135 km" }, { title: "Jaipur → Delhi", km: "280 km" }
+          ]
+        },
+        {
+          badge: "2e-7", label: "Jaipur → Ranthambore", crumb: "Jaipur to Ranthambore",
+          h1: "Jaipur to Ranthambore Taxi", sub: "160 km · about 3–4 hours via Tonk · timed around the safari slots",
+          photoLabel: "real fleet photo — Ertiga at Sawai Madhopur",
+          bookHeading: "Book Jaipur → Ranthambore", callLabel: "Call — Jaipur to Ranthambore", waLabel: "WhatsApp \"Jaipur to Ranthambore\"",
+          driveHeading: "About the drive and the safari timings", stopsHeading: "Popular stops on this route",
+          fares: [
+            { veh: "Swift Dzire", seats: "4", one: "₹3,200", round: "₹5,200" },
+            { veh: "Ertiga", seats: "6", one: "₹3,900", round: "₹6,200" },
+            { veh: "Innova", seats: "7", one: "₹4,600", round: "₹7,400" },
+            { veh: "Innova Crysta", seats: "7", one: "₹5,200", round: "₹8,600" },
+            { veh: "Tempo Traveller", seats: "12–17", one: "₹8,000", round: "₹12,500" }
+          ],
+          prose: [
+            { text: "Three to four hours via Tonk on a road that is mostly two-lane and slower than the numbers suggest. The safari is the thing that fixes your timing: morning slots leave around 6:30 and afternoon slots around 2:30, and gate timings shift with the season. Tell us your slot and we will set the pickup backwards from it rather than guess." },
+            { text: "The park is closed on some days in the monsoon months and Zone allocation is done by the forest department, not by us — we drive you there and back, we do not sell safari tickets. Most passengers stay one night in Sawai Madhopur; the driver stays with the car and takes you to the gate in the morning." }
+          ],
+          stops: [
+            { name: "Tonk", km: "95 km from Jaipur", note: "Halfway. The standard tea and washroom stop on this road." },
+            { name: "Sawai Madhopur", km: "160 km from Jaipur", note: "Where the hotels are, ten minutes from the park gate." },
+            { name: "Chauth Ka Barwara", km: "125 km from Jaipur", note: "Hilltop temple a short detour off the route, if you have the time." }
+          ],
+          faqs: [
+            { q: "Will we make the morning safari?", a: "Only if we leave Jaipur by 2:30 am, which is a hard night. Most passengers travel the day before, stay overnight, and take the morning slot fresh." },
+            { q: "Do you book the safari tickets?", a: "No. Zones and permits are handled by the forest department and we would rather not promise what we do not control. We handle the driving." },
+            { q: "How long does the drive really take?", a: "Three and a half to four hours honestly, not three. The Tonk road is two-lane for much of the way with village traffic." },
+            { q: "Can the driver stay overnight with us?", a: "Yes. He stays with the car and takes you to the gate in the morning. A night halt adds ₹400 driver allowance for the day." },
+            { q: "Is a same-day return possible?", a: "Yes for the afternoon safari — leave Jaipur at nine, safari at half past two, back in Jaipur by ten at night. It is a long day but people do it." }
+          ],
+          reviews: [
+            { text: "They timed the pickup exactly to our safari slot and we reached the gate with time to spare. Driver waited the whole afternoon.", name: "Karan Malhotra", meta: "Google review · Jaipur to Ranthambore, October 2025" },
+            { text: "Honest about the road being slower than Google says, which I appreciated. Left an hour earlier and had no stress.", name: "Emma Fitzgerald", meta: "Google review · Jaipur to Ranthambore, January 2026" }
+          ],
+          related: [
+            { title: "Jaipur → Agra", km: "240 km" }, { title: "Jaipur → Mehandipur Balaji", km: "105 km" },
+            { title: "Jaipur → Udaipur", km: "395 km" }, { title: "Ranthambore → Jaipur", km: "160 km" }
+          ]
+        }
+      ],
+      fleetDetail: [
+        { name: "Swift Dzire", seats: "4 passengers", bags: "2 large bags", perKm: "₹13 / km", best: "Two or three people, city and highway alike. Our most-booked car and the cheapest way to do a long one-way drop.", note: "Petrol and CNG both in the fleet. Ask for CNG if you want the lower fare on a local day." },
+        { name: "Ertiga", seats: "6 passengers", bags: "3 large bags", perKm: "₹16 / km", best: "A family of five or six who want to sit properly rather than squeeze into a sedan.", note: "The usual choice for Khatu Shyam and Salasar day trips with parents and children together." },
+        { name: "Innova", seats: "7 passengers", bags: "4 large bags", perKm: "₹18 / km", best: "Long highway runs where comfort over six or seven hours matters more than the per-km rate.", note: "Sits high, takes rough village roads without complaint. Good for Jodhpur and Jaisalmer legs." },
+        { name: "Innova Crysta", seats: "7 passengers", bags: "4 large bags", perKm: "₹21 / km", best: "Full-day and multi-day travel, corporate bookings, and anyone who wants the quietest ride we have.", note: "Newest vehicles in the fleet. Usually what we send for airport pickups of foreign guests." },
+        { name: "Tempo Traveller", seats: "12 or 17 passengers", bags: "Roof carrier fitted", perKm: "₹26 / km", best: "Group pilgrimage, wedding parties and office outings — one vehicle instead of three cars.", note: "Both 12 and 17 seaters are ours. Push-back seats in the 12; bench seating in the 17." }
+      ],
+      mobileFares: [
+        { veh: "Swift Dzire", seats: "4 seats · 2 bags", one: "₹4,500", round: "₹7,800" },
+        { veh: "Ertiga", seats: "6 seats · 3 bags", one: "₹5,500", round: "₹9,200" },
+        { veh: "Innova", seats: "7 seats · 4 bags", one: "₹6,500", round: "₹10,800" },
+        { veh: "Innova Crysta", seats: "7 seats · 4 bags", one: "₹7,500", round: "₹12,500" },
+        { veh: "Tempo Traveller", seats: "12–17 seats", one: "₹11,000", round: "₹18,000" }
+      ],
+      showNote: this.props.showFarePlaceholderNote ?? true,
+      routes: [
+        { title: "Jaipur → Delhi", km: "280 km · 5–6 hrs", price: "₹4,500" },
+        { title: "Delhi → Jaipur", km: "280 km · 5–6 hrs", price: "₹4,500" },
+        { title: "Jaipur → Agra", km: "240 km · 4–5 hrs", price: "₹4,200" },
+        { title: "Jaipur → Khatu Shyam Ji", km: "80 km · 2 hrs", price: "₹2,200" },
+        { title: "Jaipur → Ajmer & Pushkar", km: "135 km · 3 hrs", price: "₹2,800" },
+        { title: "Jaipur → Udaipur", km: "395 km · 7 hrs", price: "₹6,500" },
+        { title: "Jaipur → Jodhpur", km: "335 km · 6 hrs", price: "₹5,800" },
+        { title: "Jaipur → Ranthambore", km: "160 km · 3–4 hrs", price: "₹3,200" }
+      ],
+      services: [
+        { title: "One-way drop", note: "Pay for the direction you travel. No return charge added." },
+        { title: "Round trip", note: "Same car, same driver, waiting time included." },
+        { title: "Airport transfer", note: "Jaipur and Delhi terminals. 45 minutes waiting free." },
+        { title: "Local 8hr / 80km", note: "A car and driver for the day inside the city." },
+        { title: "Outstation", note: "Rajasthan, Delhi NCR, Haryana and Uttar Pradesh." },
+        { title: "Tempo Traveller", note: "12 and 17 seater for families travelling together." }
+      ],
+      fleet: [
+        { name: "Swift Dzire", seats: "4 seats · 2 bags", note: "The everyday sedan for two or three people." },
+        { name: "Ertiga", seats: "6 seats · 3 bags", note: "Small family with room to sit properly." },
+        { name: "Innova", seats: "7 seats · 4 bags", note: "Long highway runs in comfort." },
+        { name: "Innova Crysta", seats: "7 seats · 4 bags", note: "Newer, quieter, for full-day travel." },
+        { name: "Tempo Traveller", seats: "12–17 seats", note: "Group pilgrimage and wedding parties." }
+      ],
+      pilgrim: [
+        { hi: "खाटू श्याम जी", en: "Khatu Shyam", km: "80 km from Jaipur" },
+        { hi: "सालासर बालाजी", en: "Salasar Balaji", km: "170 km from Jaipur" },
+        { hi: "मेहंदीपुर बालाजी", en: "Mehandipur Balaji", km: "105 km from Jaipur" },
+        { hi: "राणी सती दादी", en: "Rani Sati Dadi", km: "175 km from Jaipur" }
+      ],
+      reviews: [
+        { text: "Booked a Ertiga for Khatu Shyam at short notice. The fare they said on the phone was the fare we paid, nothing added at the end.", name: "Manoj Agarwal", meta: "Google review · Jaipur" },
+        { text: "Driver's number came the night before and he called at six in the morning himself. My parents travelled alone and I was not worried.", name: "Priyanka S.", meta: "Google review · Gurgaon" },
+        { text: "Used them four times for Jaipur–Delhi now. Same office, same people answer, they know us. Car is always clean.", name: "R. Khandelwal", meta: "Google review · Delhi" }
+      ],
+      fareRows: [
+        { veh: "Swift Dzire", seats: "4", one: "₹4,500", round: "₹7,800" },
+        { veh: "Ertiga", seats: "6", one: "₹5,500", round: "₹9,200" },
+        { veh: "Innova", seats: "7", one: "₹6,500", round: "₹10,800" },
+        { veh: "Innova Crysta", seats: "7", one: "₹7,500", round: "₹12,500" },
+        { veh: "Tempo Traveller", seats: "12–17", one: "₹11,000", round: "₹18,000" }
+      ],
+      stops: [
+        { name: "Neemrana Fort", km: "122 km from Jaipur", note: "A ninety-minute detour if you want lunch at the fort. Tell the driver when you book." },
+        { name: "Behror", km: "160 km from Jaipur", note: "Where our drivers stop. Rajasthani thali, clean washrooms, twenty minutes." },
+        { name: "Manesar", km: "240 km from Jaipur", note: "Last stop before Gurgaon traffic. Useful for a tea and a stretch." }
+      ],
+      faqs: [
+        { q: "How long does the Jaipur to Delhi drive take?", a: "Five to six hours on NH-48 including one stop. Leaving at 6:30 am usually means South Delhi by 11:30. After 4 pm you arrive in the evening rush and it can run to seven hours — we will say so when you call." },
+        { q: "Are toll and state tax included in the fare?", a: "No. Toll, parking, state tax and driver allowance are charged separately. We list the amounts before you book, so the total you agree to is the total you pay." },
+        { q: "Can we stop at Neemrana on the way?", a: "Yes. Tell us when booking and the driver plans for it. A lunch stop at Neemrana Fort adds about ninety minutes and no extra fare on a one-way trip." },
+        { q: "Do you drop anywhere in Delhi NCR, including the airport?", a: "Anywhere in Delhi, Noida, Gurgaon, Faridabad and Ghaziabad, and all three airport terminals. Gurgaon and Noida drops carry a small difference in state tax, quoted upfront." },
+        { q: "Will I get the driver's number before the trip?", a: "The evening before pickup we send his name, photo and mobile number on WhatsApp. You can call him directly to confirm the pickup point." },
+        { q: "What happens if my flight is delayed?", a: "For airport pickups we track the flight. Waiting up to 45 minutes after landing is free; beyond that it is ₹150 an hour. Nothing is charged if the flight is cancelled and you tell us." }
+      ],
+      routeReviews: [
+        { text: "Jaipur to Delhi airport at four in the morning. Driver was outside the gate at 3:45, we reached T3 with two hours to spare. Fare exactly as quoted on WhatsApp.", name: "Sanjay Mehta", meta: "Google review · Jaipur to Delhi, July 2026" },
+        { text: "Took the round trip and stopped at Neemrana for lunch on the way back. Same driver both days, he waited without complaining once.", name: "Anita Rao", meta: "Google review · Jaipur to Delhi, May 2026" }
+      ],
+      related: [
+        { title: "Delhi → Jaipur", km: "280 km" },
+        { title: "Jaipur → Agra", km: "240 km" },
+        { title: "Jaipur → Gurgaon", km: "260 km" },
+        { title: "Jaipur → Mathura", km: "230 km" }
+      ],
+      rateRows: [
+        { veh: "Swift Dzire", seats: "4", perKm: "₹13", minDay: "250 km", local: "₹1,800", night: "₹300" },
+        { veh: "Ertiga", seats: "6", perKm: "₹16", minDay: "250 km", local: "₹2,400", night: "₹300" },
+        { veh: "Innova", seats: "7", perKm: "₹18", minDay: "250 km", local: "₹2,800", night: "₹300" },
+        { veh: "Innova Crysta", seats: "7", perKm: "₹21", minDay: "250 km", local: "₹3,200", night: "₹400" },
+        { veh: "Tempo Traveller", seats: "12–17", perKm: "₹26", minDay: "300 km", local: "₹4,500", night: "₹500" }
+      ],
+      charges: [
+        { title: "Toll", when: "Applies on every highway trip", body: "Paid at the plazas on the route. Jaipur to Delhi has four; we tell you the count and the total before you leave. The driver keeps the receipts and shows them to you.", hi: "टोल हाईवे पर लगता है। रसीद ड्राइवर के पास रहती है।" },
+        { title: "Parking", when: "Only where the car must be parked", body: "Airports, forts, hotels and some markets charge to park. Usually ₹50 to ₹250. If your trip has no such stop, there is nothing to pay.", hi: "पार्किंग सिर्फ वहीं, जहाँ गाड़ी खड़ी करनी पड़े।" },
+        { title: "State tax", when: "Only when crossing a state border", body: "Each state charges a permit fee for a commercial vehicle entering it. Travel inside Rajasthan and it does not apply. Jaipur to Delhi crosses Haryana and Delhi, so two apply.", hi: "राज्य कर सिर्फ दूसरे राज्य में जाने पर लगता है।" }
+      ],
+      drivers: [
+        { name: "Ramesh", years: "14 years", lang: "Hindi, English", routes: "Jaipur–Delhi, Golden Triangle", status: "With us since 2012" },
+        { name: "Suresh", years: "9 years", lang: "Hindi", routes: "Rajasthan circuit, pilgrimage routes", status: "With us since 2017" },
+        { name: "Mahesh", years: "11 years", lang: "Hindi, Marwari", routes: "Jaipur–Jodhpur, Jaipur–Udaipur", status: "With us since 2015" },
+        { name: "Bhanwar", years: "17 years", lang: "Hindi, Marwari, English", routes: "Long outstation, Shekhawati", status: "With us since 2009" },
+        { name: "Vikram", years: "7 years", lang: "Hindi, English", routes: "Airport transfers, Delhi NCR drops", status: "With us since 2019" },
+        { name: "Om Prakash", years: "20 years", lang: "Hindi", routes: "Khatu Shyam, Salasar, Mehandipur", status: "With us since 2006" },
+        { name: "Deepak", years: "6 years", lang: "Hindi, English", routes: "Jaipur local, Ranthambore", status: "With us since 2020" },
+        { name: "Kailash", years: "13 years", lang: "Hindi, Marwari", routes: "Tempo Traveller, wedding parties", status: "With us since 2013" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

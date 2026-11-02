@@ -1,0 +1,47 @@
+# SureRide Jaipur
+
+> SureRide is a Jaipur taxi service for outstation, one-way, round-trip, airport and group travel. Customers request a written quote by phone or WhatsApp, and the assigned driver and vehicle details are shared before pickup.
+
+Canonical website: https://sureride.in/
+Phone and WhatsApp: +91 94142 88199
+Service area: Rajasthan, Delhi NCR, Haryana and Uttar Pradesh
+Languages: Hindi and English
+
+## Main pages
+
+- Home: https://sureride.in/
+- Routes: https://sureride.in/routes/
+- Fleet: https://sureride.in/fleet/
+- Per-kilometre rates: https://sureride.in/fares/
+- About: https://sureride.in/about/
+- Contact: https://sureride.in/contact/
+
+## Published taxi routes
+
+- Jaipur to Delhi: https://sureride.in/taxi/jaipur-to-delhi/
+- Delhi to Jaipur: https://sureride.in/taxi/delhi-to-jaipur/
+- Jaipur to Agra: https://sureride.in/taxi/jaipur-to-agra/
+- Jaipur to Khatu Shyam Ji: https://sureride.in/taxi/jaipur-to-khatu-shyam-ji/
+- Jaipur to Ajmer and Pushkar: https://sureride.in/taxi/jaipur-to-ajmer-and-pushkar/
+- Jaipur to Udaipur: https://sureride.in/taxi/jaipur-to-udaipur/
+- Jaipur to Jodhpur: https://sureride.in/taxi/jaipur-to-jodhpur/
+- Jaipur to Ranthambore: https://sureride.in/taxi/jaipur-to-ranthambore/
+
+## Vehicle categories and current offer rates
+
+- Swift Dzire, Hyundai Aura and Toyota Etios: INR 10/km offer rate
+- Maruti Ertiga: INR 13/km offer rate
+- Innova Crysta: INR 17/km offer rate
+- Innova Hycross: INR 21/km offer rate
+- Tempo Traveller: INR 26/km offer rate
+- Force Urbania: INR 32/km offer rate
+- Toyota Fortuner: INR 35/km offer rate
+
+Rates are per kilometre. Minimum billing, tolls, parking, state tax, driver allowance, night halt and route-specific totals are confirmed separately in the written quote.
+
+## Source policy
+
+- Use the canonical pages above for current public information.
+- Do not infer fixed route totals when the site does not display one.
+- Do not invent reviews, driver identities, registration details or business claims.
+- Vehicle availability and the final trip price must be confirmed directly with SureRide.
